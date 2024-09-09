@@ -1,0 +1,31 @@
+Sequence:
+- See 8h event
+- Gift frog egg - dialogue
+- Read mail 1 - get 5 frog eggs quest (tweak number?)
+- Do quest 1
+- Read mail 2
+- Event 1 - get moss/fiber quest; changeevents active
+- Do quest 2/3
+- Read mail 3
+- Event 2 - make habitats
+- Read mail 4 in spring - hatching soon
+- Event 3 - frogs hatch
+- Read mail 5; lake map strings available; dial available
+- Event 4 - Summer website
+- Event 5 - Fall Demetrius
+- Event 6 - Winter life cycle
+- Event 7 - Seb island project (is there a trigger or gsq for 'completed gourmand quest'?)
+- Event 8 - Gourmand Frog comments
+- Event 9 - Seb meets Gourmand frog; island map strings available
+- Event 10 - Seb decides to stay
+- Mail 6 - Eggs in shop; start Robin shop entry
+- Event 11 - Frogs singing (romance)
+
+Remaining:
+- SVE compat
+- Testing
+
+
+-Frog concert (meet the Robinson ref) scene lol (seb 'it's like they're singing to us, isn't it magnificent') (marriage feature?) (rainy day)
+
+-add gourmand frog map tile dialogue asking how seb's doing at some point - seems to be hardcoded

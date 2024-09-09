@@ -1,0 +1,89 @@
+{
+
+	"Changes": [
+
+		// Events //////////////////////////////////////////////////////////
+		// 8h vanilla event = eventid 29
+
+		{
+			"LogName": "Si SF Events",
+			"Action": "Include",
+			"FromFile": "Assets/Base/Si_SF_Events.json",
+    	},
+
+		{
+			"LogName": "Si SF Mail",
+			"Action": "Include",
+			"FromFile": "Assets/Base/Si_SF_Mail.json",
+    	},
+
+		// Quests //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Quests",
+			"Action": "Include",
+			"FromFile": "Assets/Base/Si_SF_Quests.json",
+    	},
+
+		// Modified Events //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Modified Vanilla Events",
+			"Action": "Include",
+			"FromFile": "Assets/Base/Si_SF_ChangeEvents.json",
+			"When": {
+				"EditEvents": true
+			}
+    	},
+
+		// Schedules //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Schedules",
+			"Action": "Include",
+			"FromFile": "Assets/Base/Si_SF_Sched.json",
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214004": true,
+			}
+		},
+
+		// Dialogue //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Other NPC Dialogue",
+			"Action": "Include",
+			"FromFile": "Assets/Base/Si_SF_NPCDial.json",
+		},
+
+		{
+			"LogName": "Si SF Seb Dialogue",
+			"Action": "Include",
+			"FromFile": "Assets/Base/Si_SF_SebDial.json",
+		},
+
+		// Map Strings //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Map Strings",
+			"Action": "Include",
+			"FromFile": "Assets/Base/Si_SF_MapStrings.json",
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214004": true,
+			}
+		},
+
+		// Locations //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Gourmand Frog Cave Events",
+			"Action": "Load",
+			"Target": "Data/Events/IslandFarmCave",
+			"FromFile": "Assets/Base/Si_SF_CaveEvents.json",
+			"Priority": "Low"
+    	},
+
+		// End //////////////////////////////////////////////////////////
+
+	],
+
+}

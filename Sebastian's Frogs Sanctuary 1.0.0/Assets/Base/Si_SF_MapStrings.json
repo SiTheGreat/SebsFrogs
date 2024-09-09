@@ -1,0 +1,167 @@
+{
+	// Map strings for frog habitats
+	"Changes": [
+
+	// Lake Strings ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+        "Action": "EditData",
+        "Target": "Strings/StringsFromMaps",
+        "Entries": {
+            "{{ModId}}_LakeFrogs1": "There's a cluster of frog eggs here. It looks like they're almost ready to hatch.",
+			"{{ModId}}_LakeFrogs2": "A couple of frogs are playing in the grass.",
+			"{{ModId}}_LakeFrogs3": "The frogs are enjoying the warm sunshine.",
+        },
+		"When": {
+			"Season": "Spring",
+            "Weather | contains= Rain, Storm, GreenRain": false,
+		}
+	},
+
+	{
+        "Action": "EditData",
+        "Target": "Strings/StringsFromMaps",
+        "Entries": {
+            "{{ModId}}_LakeFrogs1": "A frog is eyeing some bugs, waiting for its chance to catch one.",
+			"{{ModId}}_LakeFrogs2": "A couple of frogs are hopping around.",
+			"{{ModId}}_LakeFrogs3": "Some frogs are basking in the sun.",
+        },
+		"When": {
+			"Season": "Summer",
+            "Weather | contains= Rain, Storm, GreenRain": false,
+		}
+	},
+
+	{
+        "Action": "EditData",
+        "Target": "Strings/StringsFromMaps",
+        "Entries": {
+            "{{ModId}}_LakeFrogs1": "A few frogs are rolling hazelnuts around.",
+			"{{ModId}}_LakeFrogs2": "A frog pokes its head out of a leaf pile.",
+			"{{ModId}}_LakeFrogs3": "A frog is blinks lazily at you.",
+        },
+		"When": {
+			"Season": "Fall",
+            "Weather | contains= Rain, Storm, GreenRain": false,
+		}
+	},
+
+	{
+        "Action": "EditData",
+        "Target": "Strings/StringsFromMaps",
+        "Entries": {
+            "{{ModId}}_LakeFrogs1": "The frogs are hibernating.",
+			"{{ModId}}_LakeFrogs2": "The frogs are asleep for the winter.",
+			"{{ModId}}_LakeFrogs3": "It's too cold for the frogs to be awake right now.",
+        },
+		"When": {
+			"Season": "Winter",
+		}
+	},
+
+	{
+        "Action": "EditData",
+        "Target": "Strings/StringsFromMaps",
+        "Entries": {
+            "{{ModId}}_LakeFrogs1": "The frogs are enjoying the rain.",
+			"{{ModId}}_LakeFrogs2": "There's a frog here that's croaking very loudly.",
+			"{{ModId}}_LakeFrogs3": "A couple of frogs are splashing around in a puddle.",
+        },
+		"When": {
+			"Season": "Spring, Summer, Fall",
+            "Weather | contains= Rain, Storm, GreenRain": true,
+		}
+	},
+
+	// Island Strings ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+        "Action": "EditData",
+        "Target": "Strings/StringsFromMaps",
+        "Entries": {
+			"{{ModId}}_IslandFrogs1": "The frogs are thriving.",
+			"{{ModId}}_IslandFrogs2": "A couple of frogs are napping in the grass.",
+        },
+		"When": {
+			"Season": "Spring, Fall",
+		}
+	},
+
+	{
+        "Action": "EditData",
+        "Target": "Strings/StringsFromMaps",
+        "Entries": {
+			"{{ModId}}_IslandFrogs1": "A few frogs are resting on lilypads.",
+			"{{ModId}}_IslandFrogs2": "A frog is croaking in the shade.",
+        },
+		"When": {
+			"Season": "Summer, Winter",
+		}
+	},
+
+	// Lake ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// 81 37, 61 37, 69 21 - these work for both vanilla and SVE
+
+	{
+        "Action": "EditMap",
+        "Target": "Maps/Mountain",
+        "MapTiles": [
+            {
+                "Position": { "X": 81, "Y": 37 },
+                "Layer": "Buildings",
+                "SetProperties": {
+                    "Action": "Message {{ModId}}_LakeFrogs1"
+                }
+            },
+			{
+                "Position": { "X": 61, "Y": 37 },
+                "Layer": "Buildings",
+                "SetProperties": {
+                    "Action": "Message {{ModId}}_LakeFrogs2"
+                }
+            },
+			{
+                "Position": { "X": 69, "Y": 21 },
+                "Layer": "Buildings",
+                "SetProperties": {
+                    "Action": "Message {{ModId}}_LakeFrogs3"
+                }
+            },
+        ],
+		"When": {
+            "HasSeenEvent:hostPlayer |contains=262214005": true,
+		}
+	},
+
+	// Island ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// 67 44, 41 49 - also work for both vanilla and SVE
+
+	{
+        "Action": "EditMap",
+        "Target": "Maps/IslandWest",
+        "MapTiles": [
+            {
+                "Position": { "X": 67, "Y": 44 },
+                "Layer": "Buildings",
+                "SetProperties": {
+                    "Action": "Message {{ModId}}_IslandFrogs1"
+                }
+            },
+			{
+                "Position": { "X": 41, "Y": 49 },
+                "Layer": "Buildings",
+                "SetProperties": {
+                    "Action": "Message {{ModId}}_IslandFrogs2"
+                }
+            },
+        ],
+		"When": {
+            "HasSeenEvent:hostPlayer |contains=262214011": true,
+		}
+	},
+
+	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	]
+}

@@ -1,0 +1,39 @@
+{
+
+	// SF schedules
+
+	"Changes": [
+
+		{
+			"LogName": "Si SF Seb Sched",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Sebastian",
+			"Entries": {
+				"rain2": "840 ScienceHouse 27 9 0/920 Mountain 60 37 1/1210 Mountain 68 21 1/1420 Mountain 81 36 2/1650 ScienceHouse 27 9 0/1810 SebastianRoom 9 4 3 sebastian_computer/2220 SebastianRoom 11 9 1 sebastian_sleep",
+				"23": "GOTO rain2",
+				"marriage_spring_23": "920 Mountain 60 37 1/1310 Mountain 68 21 1/1520 Mountain 81 36 2/1750 bed",
+				"marriage_summer_23": "GOTO marriage_spring_23",
+				"marriage_fall_23": "GOTO marriage_spring_23",
+				"marriage_winter_23": "GOTO marriage_spring_23",
+			},
+			"When": {
+				"SebSched": true
+			}
+		},
+
+		{
+			"LogName": "Si SF Vincent Sched",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Vincent",
+			"Entries": {
+				"rain2": "900 SamHouse 4 8 0/1000 SamHouse 2 15 2 vincent_play/1210 Mountain 60 37 1/1510 Mountain 68 21 1/1620 Mountain 81 36 2/1840 SamHouse 5 7 3/2010 SamHouse 11 22 2 vincent_play/2050 SamHouse 8 22 3 vincent_sleep",
+				"21": "GOTO rain2",
+			},
+			"When": {
+				"VincentSched": true
+			}
+		},
+
+	]
+
+}

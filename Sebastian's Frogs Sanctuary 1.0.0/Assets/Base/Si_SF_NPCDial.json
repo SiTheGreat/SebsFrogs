@@ -1,0 +1,345 @@
+{
+
+	// Dialogue for vailla NPCs other than Seb
+
+	"Changes": [
+
+		// Abigail //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Abigail CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"SebFrogHatch": "Seb mentioned you found a lot of those frog eggs while out adventuring.#$b#Could you give me some tips on finding them?",
+				"SebFrogIsland": "I've never seen Seb so pumped to take an island vacation.$1#$b#He's probably just excited to expand the frog project.",
+			},
+		},
+
+		{
+			"LogName": "Si SF Abigail Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"Thu6": "I never realized how much work taking care of some piles of moss and wood could be.#$b#Those habitats are no joke!#$e#At least Sam's mom makes good food for us afterwards.",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214004": true,
+				"DialoguePatches": true
+			}
+		},
+
+		// Sam //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Sam CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"SebFrogHatch": "I gotta admit, I didn't think asking Seb to babysit Vincent for me would lead to a whole project, but it's kinda cool.",
+				"SebFrogIsland": "Seb didn't seem too interested in visiting the island at first, but now he's practically itching to go back.#$b#I think I'll go with him next time.",
+			},
+		},
+
+		{
+			"LogName": "Si SF Sam Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"Tue6": "Me and Abby've been helping Seb with his frog project.#$b#It's a lot of hard work but my mom always makes us hot dinner when we get back, so that's pretty sweet.",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214004": true,
+				"DialoguePatches": true
+			}
+		},
+
+		// Demetrius //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Demetrius CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			"Entries": {
+				"SebFrogSick": "The frog Sebastian brought in is doing much better.",
+			},
+		},
+
+		{
+			"LogName": "Si SF Demetrius Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			"Entries": {
+				"Tue6": "Sebastian and I have been developing a fairly advanced profile of the Valley's soil acidity.#$b#He's becoming quite the researcher.$1",
+				"summer_Tue6": "I wonder if water retaining soil would encourage a higher variety of plant growth around the frog habitats.#$b#I should float the idea to Sebastian.",
+				"winter_Tue6": "Sebastian and I are planning to take ice samples of the lake to see what kind of conditions the hibernating frogs are experiencing this winter.#$b#Maru and Robin are building a specialized drill for the expedition.#$b#Isn't it exciting how teamwork furthers the advancement of scientific knowledge?$1",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214007": true,
+				"DialoguePatches": true
+			}
+		},
+
+		// Robin //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Robin CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": {
+				"SebFrogHatch": "I've never seen Sebastian get so passionate about something.#$b#This frog project has really brought out a spark in him.",
+			},
+		},
+
+		{
+			"LogName": "Si SF Robin Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": {
+				"Fri6": "Sebastian and Demetrius have been getting along much better since they started working together on helping the frogs.#$b#It makes me so happy.$1",
+				"Sat6": "The trees around the mountain have been looking much healthier lately.#$b#I wonder if Sebastian's conservation project has anything to do with it.",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214007": true,
+				"DialoguePatches": true
+			}
+		},
+
+		// Maru //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Maru CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"SebFrogHatch": "I'm thinking of building trackers to tag the frogs with, so Sebastian can monitor their behavior.#$b#What do you think?",
+			},
+		},
+
+		{
+			"LogName": "Si SF Maru Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"summer_Tue8": "Sebastian and I have been growing a lot closer since he started working on his frog conservation project.#$b#He actually feels like my brother now.#$b#It's nice.",
+				"Fri8": "Seb and I have been tracking the frogs' behavioural patterns using tags I built.#$b#We're able to monitor things like food sources, nesting habits, and predator locations to see what areas need support.",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214004": true,
+				"DialoguePatches": true
+			}
+		},
+
+		// Alex //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Alex CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+				"SebFrogVideo": "Sebastian mentioned I sound like a sport annouuncer.#$b#I've never considered that before, but maybe that's something I could get into.",
+			},
+		},
+
+		{
+			"LogName": "Si SF Alex Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+				"spring_Thu8": "Sebastian says frogs can jump twenty times their height!#$b#I wonder if I can train enough to jump that high?",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214006": true,
+				"DialoguePatches": true
+			}
+		},
+
+		// Haley //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Haley CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+				"SebFrogVideo": "It took forever to get the frog slime off my face.$2#$b#But at least I got some good photos of it first.",
+			},
+		},
+
+		{
+			"LogName": "Si SF Haley Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+				"spring_Fri8": "I'm thinking of starting a social media account for the frog project.#$b#But I also don't want them to jump on me again when I'm taking pictures...$2#$b#I'll think about it.",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214006": true,
+				"DialoguePatches": true
+			}
+		},
+
+		// Shane //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Shane CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"SebFrogVideo": "I got some good footage the other day.",
+			},
+		},
+
+		{
+			"LogName": "Si SF Shane Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Mon8": "Getting good frog videos is pretty difficult.#$b#Their movements are unpredictable and they're always hopping between bright and shaded areas.#$b#Makes for a good challenge though.$1",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214006": true,
+				"DialoguePatches": true
+			}
+		},
+
+		// Linus //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Linus CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": {
+				"SebFrogLake": "I've seen you folks working hard to set up frog habitats.#$b#I'm proud of what you're all doing for the valley.$1",
+			},
+		},
+
+		{
+			"LogName": "Si SF Linus Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": {
+				"Sun8": "I enjoy falling asleep to the sound of frogs croaking in the evening.",
+				"Thu8": "The mountain has gotten so lively since your friend started helping the frogs who live here.",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214004": true,
+				"DialoguePatches": true
+			}
+		},
+
+		// Kent //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Kent Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"Entries": {
+				"spring_Thu8": "When I was a kid, we were always out late catching frogs.#$b#Now the kids out late helping them!#$b#Guess times have changed...$1",
+				"fall_Thu8": "When I was a kid, we were always out late catching frogs.#$b#Now the kids out late helping them!#$b#Guess times have changed...$1",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214004": true,
+				"DialoguePatches": true
+			}
+		},
+
+		// Jodi //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Jodi Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": {
+				"Fri": "Sam and his friends were out late checking on frog habitats last night.#$b#I wish he'd come home early, but I am glad he's doing something good for the environment and staying out of trouble, so I won't complain.",
+				"fall_Thu8": "Vincent keeps coming home with muddy clothes.#$b#I know he's been helping with the frog project, but I wish there were cleaner ways for him to do that.$2#$b#Sam's started doing his own laundry, maybe I can ask him to start doing Vincent's as well...",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214004": true,
+				"DialoguePatches": true
+			}
+		},
+
+		// Vincent //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Vincent CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": {
+				"SebFrogLake": "I had so much fun at the lake!#$b#My mom wasn't very happy with my dirty clothes when I got home though.",
+				"SebFrogHatch": "Did you see all the little frogs?#$b#They looked so squishy!",
+				"SebFrogSchool": "Ms. Penny said I did really good on my frog report.#$b#Mom was very happy about it!",
+			},
+		},
+
+		{
+			"LogName": "Si SF Vincent Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": {
+				"AcceptGift_(TR)FrogEgg": "Oh wow, a frog egg!#$b#I'm gonna ask Sebastian to show me how to hatch it.",
+				"winter_Wed": "All the frogs are asleep, so I can't see them right now.$2",
+				"Wed": "I wanna watch the frogs, but Mom gets mad when I'm all dirty.$u#$b#It's a tough choice.",
+				"summer_Fri": "I'm gonna go look at the frogs!",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214004": true,
+				"DialoguePatches": true
+			}
+		},
+
+		// Penny //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Penny CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+				"SebFrogHatch": "That was such an eductional activity!#$b#I'm glad I brough the children.",
+				"SebFrogSchool": "Vincent's report on frog life cycles was very well researched.#$b#I'm so happy to see him apply his passion to learning.",
+			},
+		},
+
+		{
+			"LogName": "Si SF Penny Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+				"Wed6": "I'm trying to incorporate frogs into my lesson plans more to keep Vincent engaged.",
+				"summer_Sat6": "I'm planning another field trip to the lake for the kids to learn more about the ecosystem there.",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214004": true,
+				"DialoguePatches": true
+			}
+		},
+
+		// Jas //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Jas CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"Entries": {
+				"SebFrogHatch": "Watching the frogs hatch was very cool!",
+				"SebFrogSchool": "I never realized that frogs are a lot like butterflies.#$b#Now I wanna learn more about them!$1",
+			},
+		},
+
+		{
+			"LogName": "Si SF Jas Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"Entries": {
+				"summer_Fri6": "Vincent keeps asking me to go visit the frogs with him.#$e#Do you think I should go?",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=262214004": true,
+				"DialoguePatches": true
+			}
+		},
+
+	]
+
+
+}

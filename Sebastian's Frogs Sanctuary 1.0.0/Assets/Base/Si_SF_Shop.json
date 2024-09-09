@@ -1,0 +1,26 @@
+{
+	// Robin shop entry for frog eggs
+	"Changes": [
+        
+	{
+        "Action": "EditData",
+        "Target": "Strings/Shops",
+        "TargetField": [ "Carpenter", "Items" ],
+        "Entries":{
+            "Si_SF_FrogEggs": {
+                        "Id": "Si_SF_FrogEggs",
+                        "ItemId": "(TR)FrogEgg",
+                        "Price": "50000",
+                "AvailableStock" : "1",
+		    },
+        },
+		"When": {
+			"Query: {{Random: 1, 10}} < 3": true,
+            "HasSeenEvent:hostPlayer |contains=262214013": true,
+		}
+	},
+
+	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	]
+}

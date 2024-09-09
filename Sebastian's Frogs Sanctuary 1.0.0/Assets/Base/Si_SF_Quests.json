@@ -1,0 +1,34 @@
+{
+	"Changes": [
+
+	{
+		// Quest ID Si_SF_Q1
+		"Action": "EditData",
+		"Target": "Data/Quests",
+		"Entries": {
+			"Si_SF_Q1": "ItemDelivery/Frog Eggs/Sebastian is looking for rare Gourmand Frog eggs./Deliver 3 Frog Eggs to Sebastian/Sebastian FrogEgg 5/-1/0/-1/false/Hmm, let's see...#$b#Looks like all of these are Gourmand Frog eggs!$1#$b#Nice work @!$7#$b#I'm going to set up a quick tank for them to make sure they stay safe while I look a few things up.#$action AddMail Current Si_SF_M2",
+		},
+	},
+
+	{
+		// Quest ID Si_SF_Q2
+		"Action": "EditData",
+		"Target": "Data/Quests",
+		"Entries": {
+			"Si_SF_Q2": "ItemDelivery/Frog Habitat Materials/Sebastian needs a lot of moss to set up habitats for the Gourmand Frogs./Deliver 500 Moss to Sebastian/Sebastian Moss 500/-1/0/-1/false/Perfect!#$action AddMail Current Si_SF_M3",
+		},
+	},
+
+	{
+		// Quest ID Si_SF_Q3
+		"Action": "EditData",
+		"Target": "Data/Quests",
+		"Entries": {
+			"Si_SF_Q3": "ItemDelivery/Frog Habitat Materials/Sebastian needs a lot of fiber to set up habitats for the Gourmand Frogs./Deliver 500 Fiber to Sebastian/Sebastian 771 500/-1/0/-1/false/Perfect!#$action AddMail Current Si_SF_M3",
+		},
+	},
+
+
+
+	]
+}

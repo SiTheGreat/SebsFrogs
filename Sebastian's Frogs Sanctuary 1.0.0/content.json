@@ -1,0 +1,77 @@
+{
+
+	"Format": "2.0.0",
+
+	// Changes so far:
+
+	// Config //////////////////////////////////////////////////////////
+
+	"ConfigSchema":{
+
+		"SebSched": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "When disabled, Sebastian will not visit the frog habitats once a month."
+		},
+
+		"VincentSched": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "When disabled, Vincent will not visit the frog habitats once a month."
+		},
+
+		"EditEvents": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "When disabled, Sebastian's vanilla 14-heart event won't be modified to match this mod."
+		},
+
+		"DialoguePatches": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "When disabled, dialogue (including marriage dialogue) added by this mod won't be applied. Does not include conversation topics."
+		},
+
+		"Froggy": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "When disabled, Sebastian will not occasionally call you Froggy as a pet name when married."
+		},
+
+		// "CrossoverContent": {
+		// 	"AllowValues": "true, false",
+		// 	"Default": "true",
+		// 	"Description": "When disabled, crossover content will not occur. Does not include compatibility patches."
+		// },
+
+	"Changes": [
+
+		// Base Content //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Base Content",
+			"Action": "Include",
+			"FromFile": "Assets/Base/Si_SF.json",
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=29": true,
+			}
+		},
+
+		// Compatibility Patches //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Compat Patches",
+			"Action": "Include",
+			"FromFile": "Assets/Compats/Si_SF_Compats.json",
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=29": true,
+			}
+		},
+
+		// Crossovers //////////////////////////////////////////////////////////
+
+		// End //////////////////////////////////////////////////////////
+
+	]
+
+}

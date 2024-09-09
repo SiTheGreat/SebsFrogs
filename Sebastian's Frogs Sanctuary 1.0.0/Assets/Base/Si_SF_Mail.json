@@ -1,0 +1,60 @@
+{
+	"Changes": [
+
+	{
+		// Mail ID Si_SF_M1
+		"Action": "EditData",
+		"Target": "Data/mail",
+		"Entries": {
+			"Si_SF_M1": "Hey @,^^About that frog egg you gave me yesterday - can you bring me any more if you find them? Around 5 should be a good sample size. Thanks.^^-Sebastian%action AddQuest Si_SF_Q1%%[#]Sebastian Wants Frog Eggs",
+		},
+	},
+
+	{
+		// Mail ID Si_SF_M2
+		"Action": "EditData",
+		"Target": "Data/mail",
+		"Entries": {
+			"Si_SF_M2": "Hey @,^^I reached out to the Ferngill Animal Conservation Center, and they sent me a kit to start a Gourmand Frog conservation project here in the valley. Stop by my room at around 2pm if you'd like to help.^^-Sebastian[#]Sebastian's Conservation Project",
+		},
+	},
+
+	{
+		// Mail ID Si_SF_M3
+		"Action": "EditData",
+		"Target": "Data/mail",
+		"Entries": {
+			"Si_SF_M3": "Hey @,^^We've got all the materials we need. Let's meet up by the lake at around 3pm.^^-Sebastian[#]Setting Up Habitats",
+		},
+	},
+
+	{
+		// Mail ID Si_SF_M4
+		"Action": "EditData",
+		"Target": "Data/mail",
+		"Entries": {
+			"Si_SF_M4": "Hey @,^^The eggs look like they're almost ready to hatch. I'm going to take them to their new homes by the lake soon, in case you want to watch.^^-Sebastian[#]Hatching Frogs",
+		},
+	},
+
+	{
+		// Mail ID Si_SF_M5
+		"Action": "EditData",
+		"Target": "Data/mail",
+		"Entries": {
+			"Si_SF_M5": "Hey thanks again for coming @. I didn't realize so many people would be interested in frogs, it was kind of cool to see everyone gathered at the lake waiting for them to hatch. They seem to be doing well. Feel free to stop by the habitats any time to check on them, just be careful not to disturb them.^^-Sebastian[#]Frog Update",
+		},
+	},
+
+	{
+		// Mail ID Si_SF_M6
+		"Action": "EditData",
+		"Target": "Data/mail",
+		"Entries": {
+			"Si_SF_M6": "Hey @,^^The frog population around the lake is stabilizing thanks to your help. I want to make sure it stays steady without overwhelming the natural resources, so if you'd like to have some of them, visit my mom while she's working. She'll occasionally have some that she can sell to you. That way I can put the money to good use for preservation efforts. I know you'll give them a good home. Thanks again for all your help @.^^-Sebastian[#]Frog Eggs At Robin's",
+		},
+	},
+
+
+	]
+}

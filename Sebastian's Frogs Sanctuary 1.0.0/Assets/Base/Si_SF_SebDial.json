@@ -1,0 +1,149 @@
+{
+
+	// SF dialogue patches
+
+	"Changes": [
+
+	// Eggs //////////////////////////////////////////////////////////
+
+	{
+		"LogName": "Si SF Trigger",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"Entries": {
+			// "AcceptGift_(TR)FrogEgg": "Hey, that's a frog egg! I'll see if I can get it to hatch. Thanks!$h", // Vanilla line for reference
+			"AcceptGift_(TR)FrogEgg": "...!#$b#@, do you know what this is?#$b#It's an egg for the rare Gourmand Frog.#$b#They're an endangered species!#$b#Thanks for giving this to me, I'm going to take a closer look at it.#$action AddMail Current Si_SF_M1",
+		},
+		"When": {
+			"HasFlag:hostPlayer |contains=Si_SF_M1": false,
+		}
+	},
+
+	{
+		"LogName": "Si SF Frog Egg Gift Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"Entries": {
+			"AcceptGift_(TR)FrogEgg": "Cool, a frog egg!#$b#It's not a Gourmand Frog, but it's still pretty neat.#$b#Thanks @.||Oh hey!#$b#This is another Gourmand Frog egg!#$b#Thanks @!$1",
+		},
+		"When": {
+			"HasFlag:hostPlayer |contains=Si_SF_M1": true,
+			"DialoguePatches": true
+		}
+	},
+
+	// Seb CTs //////////////////////////////////////////////////////////
+	// Other character dialogue is in Si_SF_CTs.json
+
+	{
+		"LogName": "Si SF Seb CTs",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"Entries": {
+			"SebFrogLake": "I can't wait for the frogs to hatch.$7",
+			"SebFrogHatch": "Watching the frogs hatch was so cool!$7#$b#I'm glad we were there for it.$7",
+			"SebFrogVideo": "I uploaded the frog video.#$b#It's been getting a lot of hits!",
+			"SebFrogSick": "The frog is doing much better now.#$b#I think I'll be able to release it back into the wild soon.",
+			"SebFrogSchool": "Vincent's been asking a lot more questions about frogs lately.#$e#I think he misses them because they're hibernating right now.",
+			"SebFrogIsland": "I saw some good spots for frog habitats near your farm on the island.",
+			"SebFrogFrog": "I still can't believe the legends are real...",
+			"SebFrogStay": "Let me know if there's anything I can help you with, @.$7#$b#I owe you a lot.",
+		},
+	},
+
+	// Gen Dialogue //////////////////////////////////////////////////////////
+
+	{
+		"LogName": "Si SF General Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"Entries": {
+			"Mon8": "Hey, how's it going?",
+			"Wed8": "I've been getting to know more people in town lately.",
+			"Sun8": "When it rains I like to go to either the beach to stare into the horizon, or the lake to listen to the frogs.",
+			"Thu8": "The guy who lives in a tent near my house let me know about an injured frog he found.$7#$b#It's nice to know someone else is looking out for them too.$7#$e#Maybe I should try talking to him more...",
+			"spring_Mon8": "More frogs have been hatching lately.",
+			"summer_Tue8": "I'm looking forward to the cold, damp season. That's when the frogs really ramp up their croaking.",
+			"summer_Thu8": "Sorry I'm covered in mud, I was working on some new frog habitats.",
+			"fall_Tue8": "Sam, Abigail, and I were out late last night checking on the frogs.#$e#Sam's mom made us spaghetti when we finally got back to town.",
+			"winter_Sat8": "The frogs are all hibernating now.#$b#I can't wait to see them again in spring.||I like winter but I do feel bad for all the cold animals out there.#$e#I guess they're used to it, though... like me.",
+		},
+		"When": {
+			"HasSeenEvent:hostPlayer |contains=262214005": true,
+			"DialoguePatches": true
+		}
+	},
+
+	{
+		"LogName": "Si SF Later Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"Entries": {
+			"winter_Sun8": "Demetrius has been talking about adding me as a contributor to one of his soil research papers.#$b#Does that make me a scientist?$5||I made some snowfrogs around town.#$b#I'm not very good at sculpting though.",
+			"Resort_Wander": "Hey @, want to help me check on the island frog habitats?",
+			"fall_Mon8": "The conservation website's been doing really well lately.",
+		},
+		"When": {
+			"HasSeenEvent:hostPlayer |contains=262214012": true,
+			"DialoguePatches": true
+		}
+	},
+
+	// Marriage //////////////////////////////////////////////////////////
+
+	{
+		"LogName": "Si SF Marriage Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueSebastian",
+		"Entries": {
+			"Rainy_Night_5": "The frogs must be loving the rain out there.",
+			"Neutral_9": "I think I'm going to go spend some time checking on the frogs.",
+			"spring_4": "I need to get a new frog population count now that spring's here.",
+			"summer_6": "Happy to see you, but I've gotta go wash all this sweat off.",
+			"fall_9": "Sorry I keep tracking mud into the house. The habitats have been pretty damp lately.",
+			"winter_14": "Since the frogs are hibernating... Wanna cuddle?",
+			"OneKid_4": "%kid1 looks kind of like a frog...#$e#...$5#$e#That's a compliment, I promise!$1",
+			"TwoKids_4": "The kids sure like hopping around like frogs, don't they?$1",
+			"Good_9": "I'm so glad to have you in my life.#$e#You make me so happy.",
+
+		},
+		"When": {
+			"HasSeenEvent:hostPlayer |contains=262214005": true,
+			"Froggy": false,
+			"DialoguePatches": true
+		}
+	},
+
+	{
+		"LogName": "Si SF Froggy Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueSebastian",
+		"Entries": {
+			"Rainy_Night_5": "The frogs must be loving the rain out there.",
+			"Neutral_9": "I think I'm going to go spend some time checking on the frogs.",
+			"spring_4": "I need to get a new frog population count now that spring's here.",
+			"summer_6": "Happy to see you Froggy, but I've gotta go wash all this sweat off.",
+			"fall_9": "Sorry I keep tracking mud into the house Froggy. The habitats have been pretty damp lately.",
+			"winter_14": "Since the frogs are hibernating... Wanna cuddle?",
+			"OneKid_4": "%kid1 looks kind of like a frog...#$e#...$5#$e#That's a compliment, I promise!$1",
+			"TwoKids_4": "The kids sure like hopping around like frogs, don't they?$1",
+			"Good_9": "I'm so glad to have you in my life, Froggy.#$e#You make me so happy.",
+			"Rainy_Day_2": "Hey. I couldn't sleep last night so I took a walk to the caves. I found this... want it?[575 769 767 84 66 78]#$e#I just have trouble sleeping sometimes, it has nothing to do with you. I love you Froggy.$7",
+			"Indoor_Day_1": "Hey Froggy... want some coffee?[395]$7#$e#I needed some... woke up early from a nightmare and I just couldn't fall back asleep.",
+			"Indoor_Night_4": "I often felt unappreciated back home... but here I feel like I really belong. Thanks for making me feel welcome, Froggy.$l",
+			"Outdoor_0": "I feel like I want to do something today... but I'm not sure what. Do you ever have that problem, Froggy?",
+			"TwoKids_3": "We've come a long way, Froggy. Look at our family. To be honest, I never really thought I'd end up in this situation.#$e#Now that I'm here, I like it...$l",
+			"Good_1": "Hey... come here Froggy. You look great today.$l",
+			"winter_28": "It's been a great year, Froggy. We should celebrate a little. [346]$h#$e#I'm sure next year will be even better.$7"
+		},
+		"When": {
+			"HasSeenEvent:hostPlayer |contains=262214005": true,
+			"Froggy": true,
+			"DialoguePatches": true
+		}
+	},
+
+
+	]
+
+}
