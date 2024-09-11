@@ -4,7 +4,7 @@
         
 	{
         "Action": "EditData",
-        "Target": "Strings/Shops",
+        "Target": "Data/Shops",
         "TargetField": [ "Carpenter", "Items" ],
         "Entries":{
             "Si_SF_FrogEggs": {

@@ -1,0 +1,18 @@
+{
+
+	"Changes": [
+
+	// Events
+	{
+		"LogName": "Si SF SVE Compat Events",
+		"Action": "Include",
+		"FromFile": "Assets/Compats/SVE/Si_SF_SVECompatEvents.json",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+	},
+
+
+	],
+
+}

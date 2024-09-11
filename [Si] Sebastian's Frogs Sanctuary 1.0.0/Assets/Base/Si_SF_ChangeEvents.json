@@ -1,0 +1,51 @@
+{
+	"Changes": [
+
+	// Modify vanilla events (i.e. 14h event)
+
+	{
+	"LogName": "Si SF 14h",
+	"Action": "EditData",
+	"Target": "Data/Events/Mountain",
+	"Entries": {
+		"9333219/O Sebastian/f Sebastian 3500/w rainy/t 600 1900": "rain/48 36/farmer 49 31 2 Sebastian 50 36 3/makeInvisible 44 31 5 5/addConversationTopic sebastianFrog 0/skippable/move farmer 0 4 2/faceDirection Sebastian 0/speak Sebastian \"Hey @... Glad you showed up.\"/emote farmer 8/faceDirection Sebastian 3/speak Sebastian \"There's an injured frog in that bush... I gotta save him!\"/emote farmer 28/faceDirection Sebastian 0/speak Sebastian \"I need your help. Go over to the bush and try to get him to come towards me. I'll wait over here and catch him.\"/pause 500/faceDirection Sebastian 3/move farmer -5 0 2/pause 500/showFrame Sebastian 54/playSound grassyStep/pause 500/speak Sebastian \"Okay... you ready?\"/emote farmer 56/textAboveHead Sebastian \"Now!\"/pause 500/doAction 44 36/pause 1000/doAction 44 36/pause 1000/doAction 44 36/playSound croak/specificTemporarySprite sebastianFrog/pause 10000/playSound coin/showFrame Sebastian 55/jump Sebastian/textAboveHead Sebastian \"Got him!\"/move farmer 5 0 2/move farmer 0 1 1/speak Sebastian \"Poor little guy... his foot's all mangled. $s\"/emote farmer 28/quickQuestion #What should we do with him?#It's our new son...#I don't think he's going to make it.#Let's nurse him back to health!(break)speak Sebastian \"I'm gonna take him home for now, and make him comfortable.#$b#I think the conservation kit has a guide on treating frog injuries.\"(break)speak Sebastian \"Hah... Yeah, I guess so.$h#$b#He's definitely got your nose...$7\"\\faceDirection farmer 2 true\\jump farmer\\showFrame farmer 94\\startJittering(break)emote Sebastian 12\\speak Sebastian \"Well, sorry if I don't take your word for it... I'm gonna give the poor guy a chance.\"(break)speak Sebastian \"We'll do our best. But don't get too attached just yet...\"/pause 300/stopJittering/stopAnimation farmer/faceDirection farmer 1/pause 500/speak Sebastian \"Let's take him home.\"/pause 500/playSound croak/pause 2000/end",
+		},
+	},
+
+	{
+		"LogName": "Si SF 14h",
+		"Action": "EditData",
+		"Target": "Data/Events/Mountain",
+		"Entries": {
+			"9333220/e 9333219/O Sebastian/A sebastianFrog/t 620 1900": "distantBanjo/-1000 -1000/farmer 51 25 2 Sebastian 52 25 2/addWorldState sebastianFrog/addConversationTopic sebastianFrog2 6/specificTemporarySprite sebastianFrogHouse/skippable/makeInvisible 44 16 4 4/makeInvisible 50 25 4 4/viewport -100 -100 true unfreeze/pause 3000/faceDirection farmer 1/emote farmer 8/speak Sebastian \"Our little friend's doing much better, see?\"/pause 500/faceDirection farmer 2/pause 250/showFrame farmer 4/pause 800/showFrame Sebastian 51/playSound thudStep/pause 800/speak Sebastian \"...but I don't think he can go back into the wild... he's not fast enough to avoid predators anymore.#$b#...So I set up this terrarium.#$b#He looks happy, doesn't he?$h\"/pause 400/emote farmer 32/pause 500/showFrame farmer 0/pause 400/faceDirection farmer 1/speak Sebastian \"I wonder if he'll get lonely, though...\"/pause 500/faceDirection farmer 2/pause 600/quickQuestion #Maybe you can add a sanctuary to your conservation project for injured frogs?#He'll be fine.(break)speak Sebastian \"...a haven specifically for frogs and toads who can't make it on their own? Not a bad idea.\"(break)speak Sebastian \"He does look pretty tough. But still, If I find another injured frog, I think he'd be better off with a friend.\"/faceDirection farmer 1/pause 1200/quickQuestion #Why do you like frogs so much, anyway?#I don't really want this in the house#I'm glad you'll have some company while you work(break)speak Sebastian \"Hmm... Well, I like going out in the rain. So I guess I encountered a lot of frogs that way.#$b#I ended up feeling a common bond with the little guys.\"\\faceDirection farmer 1 true\\emote farmer 20(break)emote Sebastian 12\\showFrame Sebastian 12\\pause 400\\speak Sebastian \"Well it's not up for debate. This is my corner of the house and I can do what I want with it.\"\\showFrame Sebastian 0(break)speak Sebastian \"Yeah, it'll be fun. We can hang out while I work on my computer.#$b#I might even post about it online!$h\"\\faceDirection farmer 1 true\\emote farmer 16\\pause 500/faceDirection farmer 2/showFrame farmer 0/pause 1000/playSound croak/specificTemporarySprite frogJump/pause 250/playSound slimeHit/pause 250/showFrame farmer 94/jump Sebastian/pause 250/playSound slimeHit/pause 500/playSound slimeHit/pause 250/fade/viewport -1000 -1000/pause 600/message \"Today our family grew a little larger...\"/pause 1000/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 1000/message \"...and a lot slimier!\"/pause 1000/end",
+			},
+		},
+
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

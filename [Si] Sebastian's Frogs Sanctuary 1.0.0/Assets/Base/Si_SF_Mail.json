@@ -6,7 +6,7 @@
 		"Action": "EditData",
 		"Target": "Data/mail",
 		"Entries": {
-			"Si_SF_M1": "Hey @,^^About that frog egg you gave me yesterday - can you bring me any more if you find them? Around 5 should be a good sample size. Thanks.^^-Sebastian%action AddQuest Si_SF_Q1%%[#]Sebastian Wants Frog Eggs",
+			"Si_SF_M1": "Hey @,^^About that frog egg you gave me yesterday - can you bring me another if you find one? Thanks.^^-Sebastian%action AddQuest Si_SF_Q1%%[#]Sebastian Wants Another Frog Egg",
 		},
 	},
 

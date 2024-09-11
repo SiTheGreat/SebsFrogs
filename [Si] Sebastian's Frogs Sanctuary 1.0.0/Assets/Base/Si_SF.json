@@ -32,8 +32,17 @@
 			"Action": "Include",
 			"FromFile": "Assets/Base/Si_SF_ChangeEvents.json",
 			"When": {
-				"EditEvents": true
+				"EditEvents": true,
+				"HasSeenEvent:hostPlayer |contains=262214001": true,
 			}
+    	},
+
+		// Shops //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Quests",
+			"Action": "Include",
+			"FromFile": "Assets/Base/Si_SF_Shop.json",
     	},
 
 		// Schedules //////////////////////////////////////////////////////////

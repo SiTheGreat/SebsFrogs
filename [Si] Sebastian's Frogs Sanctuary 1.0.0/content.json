@@ -43,6 +43,7 @@
 		// 	"Default": "true",
 		// 	"Description": "When disabled, crossover content will not occur. Does not include compatibility patches."
 		// },
+	},
 
 	"Changes": [
 
