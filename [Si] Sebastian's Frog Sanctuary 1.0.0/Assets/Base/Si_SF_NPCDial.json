@@ -295,7 +295,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
-				"SebFrogHatch": "That was such an eductional activity!#$b#I'm glad I brough the children.",
+				"SebFrogHatch": "That was such an eductional activity!#$b#I'm glad I brought the children.",
 				"SebFrogSchool": "Vincent's report on frog life cycles was very well researched.#$b#I'm so happy to see him apply his passion to learning.",
 			},
 		},
