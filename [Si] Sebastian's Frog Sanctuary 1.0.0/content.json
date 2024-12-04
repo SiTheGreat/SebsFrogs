@@ -2,8 +2,6 @@
 
 	"Format": "2.0.0",
 
-	// Changes so far:
-
 	// Config //////////////////////////////////////////////////////////
 
 	"ConfigSchema":{
@@ -14,10 +12,22 @@
 			"Description": "When disabled, Sebastian will not visit the frog habitats once a month."
 		},
 
+		"SebRainSched": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "When disabled, Sebastian will not have a 50% chance of visiting the frog habitats on rainy days."
+		},
+
 		"VincentSched": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "When disabled, Vincent will not visit the frog habitats once a month."
+		},
+
+		"VincentRainSched": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "When disabled, Vincent will not have a 50% chance of visiting the frog habitats on rainy days."
 		},
 
 		"EditEvents": {

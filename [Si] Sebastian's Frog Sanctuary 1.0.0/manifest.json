@@ -2,7 +2,7 @@
 	"Name": "[Si] Sebastian's Frog Sanctuary",
 	"Author": "SiTheGreat",
 	"Description": "Help Sebastian start a frog conservation project in the valley.",
-	"Version": "1.0.0",
+	"Version": "1.1.0",
 	"UniqueID": "Si.SebsFrogs",
 	"UpdateKeys": [ "Nexus:27685" ],
 	"ContentPackFor": {
