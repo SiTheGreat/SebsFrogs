@@ -1,9 +1,8 @@
 {
 
-	// SF dialogue patches
-
 	"Changes": [
 
+	// Other character dialogue is in Si_SF_NPCDial.json
 	// Eggs //////////////////////////////////////////////////////////
 
 	{
@@ -34,7 +33,6 @@
 	},
 
 	// Seb CTs //////////////////////////////////////////////////////////
-	// Other character dialogue is in Si_SF_CTs.json
 
 	{
 		"LogName": "Si SF Seb CTs",
@@ -49,6 +47,7 @@
 			"SebFrogIsland": "I saw some good spots for frog habitats near your farm on the island.",
 			"SebFrogFrog": "I still can't believe the legends are real...",
 			"SebFrogStay": "Let me know if there's anything I can help you with, @.$7#$b#I owe you a lot.",
+			"SebFrogAdvAbi": "How does one farmer meet so many interesting people?$5",
 		},
 	},
 

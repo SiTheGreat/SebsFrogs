@@ -1,0 +1,18 @@
+{
+
+	"Changes": [
+
+	// Adventurer Abigail
+	{
+		"LogName": "Si SF AA Crossover Events",
+		"Action": "Include",
+		"FromFile": "Assets/Crossovers/Si_SF_AA.json",
+		"When": {
+			"HasMod: |contains=SiTheGreat.AdventurerAbigail": true,
+		},
+	},
+
+
+	],
+
+}

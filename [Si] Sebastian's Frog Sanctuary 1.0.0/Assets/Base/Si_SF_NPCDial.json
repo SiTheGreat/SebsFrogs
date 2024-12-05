@@ -1,6 +1,6 @@
 {
 
-	// Dialogue for vailla NPCs other than Seb
+	// Dialogue for vanilla NPCs other than Seb
 
 	"Changes": [
 
@@ -12,7 +12,8 @@
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
 				"SebFrogHatch": "Seb mentioned you found a lot of those frog eggs while out adventuring.#$b#Could you give me some tips on finding them?",
-				"SebFrogIsland": "I've never seen Seb so pumped to take an island vacation.$1#$b#He's probably just excited to expand the frog project.",
+				"SebFrogIsland": "I've never seen Seb so pumped to take an island vacation.$1#$b#He's very excited to expand the frog project.",
+				"SebFrogAdvAbi": "The dwarf, the wizard, the giant talking frog...#$e#Any other interesting people you're hiding?$1",
 			},
 		},
 
@@ -38,6 +39,7 @@
 			"Entries": {
 				"SebFrogHatch": "I gotta admit, I didn't think asking Seb to babysit Vincent for me would lead to a whole project, but it's kinda cool.",
 				"SebFrogIsland": "Seb didn't seem too interested in visiting the island at first, but now he's practically itching to go back.#$b#I think I'll go with him next time.",
+				"SebFrogAdvAbi": "Hey @, been on any cool adventures lately?#$e#Mind if I tag along on the next one?$1",
 			},
 		},
 

@@ -48,11 +48,11 @@
 			"Description": "When disabled, Sebastian will not occasionally call you Froggy as a pet name when married."
 		},
 
-		// "CrossoverContent": {
-		// 	"AllowValues": "true, false",
-		// 	"Default": "true",
-		// 	"Description": "When disabled, crossover content will not occur. Does not include compatibility patches."
-		// },
+		"CrossoverContent": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "When disabled, crossover content will not occur. Does not include compatibility patches."
+		},
 	},
 
 	"Changes": [
@@ -80,6 +80,15 @@
 		},
 
 		// Crossovers //////////////////////////////////////////////////////////
+
+		{
+			"LogName": "Si SF Crossover Content",
+			"Action": "Include",
+			"FromFile": "Assets/Crossovers/Si_SF_Crossovers.json",
+			"When": {
+				"CrossoverContent": true
+			}
+		},
 
 		// End //////////////////////////////////////////////////////////
 
