@@ -8,4 +8,10 @@
 	"ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher",
 	},
+	"Dependencies": [
+		{
+			"UniqueID": "Si.BC",
+			"IsRequired": false
+		},
+	]
 }

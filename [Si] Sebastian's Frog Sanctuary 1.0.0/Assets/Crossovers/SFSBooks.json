@@ -1,0 +1,361 @@
+{
+
+	"Changes": [
+	
+	// Objects //////////////////////////////////////////////////////////
+
+	// SFSGuideBook
+
+	{
+		"Action": "Load",
+		"Target": "Mods/Si.BC/SFSGuideBook",
+		"FromFile": "Data/SiSebastiansFrogSanctuary/SFSGuideBook.png"
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"Si.BC_SFSGuideBookNote": {
+				"Name": "Si.BC_SFSGuideBookNote",
+				"DisplayName": "{{i18n:Si.BC.SFSGuideBookName}}",
+				"Description": "{{i18n:Si.BC.SFSGuideBookDesc}}",
+				"Type": "asdf",
+				"Category": 0,
+				"Price": 303,
+				"Texture": "Mods/Si.BC/SFSGuideBook",
+				"ExcludeFromShippingCollection": true,
+				"SpriteIndex": 0,
+				"ContextTags": [
+					"bc_book",
+				],
+			}
+		}
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "Si.BC_SFSGuideBookNote", "ContextTags" ],
+		"Entries": {
+			"unread_book": "unread_book",
+		},
+		"When": {
+			"HasFlag: |contains=Si.BC_HasSFSGuideBook": true,
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "Si.BC_SFSGuideBookNote", "ContextTags" ],
+		"Entries": {
+			"unread_book": null,
+		},
+		"When": {
+			"HasFlag: |contains=Si.BC_ReceivedSFSGuideBook": true,
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"Si.BC_SFSGuideBook": {
+				"Name": "Si.BC_SFSGuideBook",
+				"DisplayName": "{{i18n:Si.BC.SFSGuideBookName}}",
+				"Description": "{{i18n:Si.BC.SFSGuideBookDesc}}",
+				"Type": "asdf",
+				"Category": 0,
+				"Price": 303,
+				"Texture": "Mods/Si.BC/SFSGuideBook",
+				"ExcludeFromShippingCollection": true,
+				"SpriteIndex": 0,
+				"ContextTags": [
+					"bc_book",
+					"nonfiction_book",
+					"guide_book",
+				],
+			}
+		}
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "Si.BC_SFSGuideBook", "ContextTags" ],
+		"Entries": {
+			"read_book": "read_book",
+		},
+		"When": {
+			"HasFlag: |contains=Si.BC_ReceivedSFSGuideBook": true,
+		},
+	},
+
+	// SFSSoilBook
+
+	{
+		"Action": "Load",
+		"Target": "Mods/Si.BC/SFSSoilBook",
+		"FromFile": "Data/SiSebastiansFrogSanctuary/SFSSoilBook.png"
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"Si.BC_SFSSoilBookNote": {
+				"Name": "Si.BC_SFSSoilBookNote",
+				"DisplayName": "{{i18n:Si.BC.SFSSoilBookName}}",
+				"Description": "{{i18n:Si.BC.SFSSoilBookDesc}}",
+				"Type": "asdf",
+				"Category": 0,
+				"Price": 303,
+				"Texture": "Mods/Si.BC/SFSSoilBook",
+				"ExcludeFromShippingCollection": true,
+				"SpriteIndex": 0,
+				"ContextTags": [
+					"bc_book",
+				],
+			}
+		}
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "Si.BC_SFSSoilBookNote", "ContextTags" ],
+		"Entries": {
+			"unread_book": "unread_book",
+		},
+		"When": {
+			"HasFlag: |contains=Si.BC_HasSFSSoilBook": true,
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "Si.BC_SFSSoilBookNote", "ContextTags" ],
+		"Entries": {
+			"unread_book": null,
+		},
+		"When": {
+			"HasFlag: |contains=Si.BC_ReceivedSFSSoilBook": true,
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"Si.BC_SFSSoilBook": {
+				"Name": "Si.BC_SFSSoilBook",
+				"DisplayName": "{{i18n:Si.BC.SFSSoilBookName}}",
+				"Description": "{{i18n:Si.BC.SFSSoilBookDesc}}",
+				"Type": "asdf",
+				"Category": 0,
+				"Price": 303,
+				"Texture": "Mods/Si.BC/SFSSoilBook",
+				"ExcludeFromShippingCollection": true,
+				"SpriteIndex": 0,
+				"ContextTags": [
+					"bc_book",
+					"nonfiction_book",
+					"science_book",
+					"nature_book",
+				],
+			}
+		}
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "Si.BC_SFSSoilBook", "ContextTags" ],
+		"Entries": {
+			"read_book": "read_book",
+		},
+		"When": {
+			"HasFlag: |contains=Si.BC_ReceivedSFSSoilBook": true,
+		},
+	},
+
+	// Map Entries //////////////////////////////////////////////////////////
+
+	// SFSGuideBook
+
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"Si.BC_SFSGuideBookTrigger": {
+				"Id": "Si.BC_SFSGuideBookTrigger",
+				"MarkActionApplied": true,
+				"Trigger": "Manual",
+				"Condition": "!PLAYER_HAS_MAIL Current Si.BC_HasSFSGuideBook",
+				"Actions": [
+					"AddItem Si.BC_SFSGuideBookNote",
+					"AddMail Current Si.BC_HasSFSGuideBook",
+				]
+			}
+		},
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/SebastianRoom",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasSeenEvent: |contains=262214007": true
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 10, "Y": 11 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction Si.BC_SFSGuideBookTrigger"
+				}
+			},
+		],
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/SebastianRoom",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			"HasSeenEvent: |contains=262214007": true
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 10, "Y": 11 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction Si.BC_SFSGuideBookTrigger"
+				}
+			},
+		],
+	},
+
+	// SFSSoilBook
+
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"Si.BC_SFSSoilBookTrigger": {
+				"Id": "Si.BC_SFSSoilBookTrigger",
+				"MarkActionApplied": true,
+				"Trigger": "Manual",
+				"Condition": "!PLAYER_HAS_MAIL Current Si.BC_HasSFSSoilBook",
+				"Actions": [
+					"AddItem Si.BC_SFSSoilBookNote",
+					"AddMail Current Si.BC_HasSFSSoilBook",
+				]
+			}
+		},
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/ScienceHouse",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasSeenEvent: |contains=262214007": true
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 20, "Y": 17 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction Si.BC_SFSSoilBookTrigger"
+				}
+			},
+		],
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/ScienceHouse",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			"HasSeenEvent: |contains=262214007": true
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 20, "Y": 17 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction Si.BC_SFSSoilBookTrigger"
+				}
+			},
+		],
+	},
+
+	// Secret Notes //////////////////////////////////////////////////////////
+
+	{
+		"Target": "Mods/ichortower.SecretNoteFramework/Notes",
+		"Action": "EditData",
+		"Entries": {
+
+			// SFSGuideBook
+
+			"Si.BC_SFSGuideBookSNF": {
+				"Title": "{{i18n:Si.BC.SFSGuideBookName}}",
+				"Contents": "{{i18n:Si.BC.SFSGuideBookContent}}",
+				"ObjectId": "(O)Si.BC_SFSGuideBookNote",
+				"Location": "null",
+				"NoteTexture": "Mods/Si.BC/blankbook",
+				"NoteTextureIndex": 0,
+				"NoteTextColor": "rgb(12, 12, 80)",
+				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
+				"ActionsOnFirstRead": [
+					"AddMail Current Si.BC_ReceivedSFSGuideBook",
+					"IncrementStat Si_bc_hasbooks 1"
+				]
+			},
+
+			// SFSSoilBook
+
+			"Si.BC_SFSSoilBookSNF": {
+				"Title": "{{i18n:Si.BC.SFSSoilBookName}}",
+				"Contents": "{{i18n:Si.BC.SFSSoilBookContent}}",
+				"ObjectId": "(O)Si.BC_SFSSoilBookNote",
+				"Location": "null",
+				"NoteTexture": "Mods/Si.BC/blankbook",
+				"NoteTextureIndex": 0,
+				"NoteTextColor": "rgb(12, 12, 80)",
+				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
+				"ActionsOnFirstRead": [
+					"AddMail Current Si.BC_ReceivedSFSSoilBook",
+					"IncrementStat Si_bc_hasbooks 1"
+				]
+			},
+
+		},
+	},
+
+	// Gift Tastes //////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			// Sebastian
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Sebastian", 1],
+				"Value": "Si.BC_SFSGuideBook",
+				"Delimiter": " "
+			},
+		]
+	},
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}
