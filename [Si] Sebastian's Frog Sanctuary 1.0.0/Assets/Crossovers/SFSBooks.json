@@ -9,7 +9,7 @@
 	{
 		"Action": "Load",
 		"Target": "Mods/Si.BC/SFSGuideBook",
-		"FromFile": "Data/SiSebastiansFrogSanctuary/SFSGuideBook.png"
+		"FromFile": "Assets/Crossovers/SFSGuideBook.png"
 	},
 
 	{
@@ -97,7 +97,7 @@
 	{
 		"Action": "Load",
 		"Target": "Mods/Si.BC/SFSSoilBook",
-		"FromFile": "Data/SiSebastiansFrogSanctuary/SFSSoilBook.png"
+		"FromFile": "Assets/Crossovers/SFSSoilBook.png"
 	},
 
 	{
