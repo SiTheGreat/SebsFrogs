@@ -9,7 +9,7 @@
 		"LogName": "Si SF Trigger",
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Sebastian",
-		"Priority": "High",
+		"Priority": "Late",
 		"Entries": {
 			// "AcceptGift_(TR)FrogEgg": "Hey, that's a frog egg! I'll see if I can get it to hatch. Thanks!$h", // Vanilla line for reference
 			"AcceptGift_(TR)FrogEgg": "...!#$b#@, do you know what this is?#$b#It's an egg for the rare Gourmand Frog.#$b#They're an endangered species!#$b#Thanks for giving this to me, I'm going to take a closer look at it.#$action AddMail Current Si_SF_M1",
