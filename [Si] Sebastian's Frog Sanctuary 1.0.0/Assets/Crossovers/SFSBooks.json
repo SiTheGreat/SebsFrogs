@@ -209,6 +209,7 @@
 			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			"HasSeenEvent: |contains=262214007": true
 		},
+		"Priority": "Late",
 		"MapTiles": [
 			{
 				"Position": { "X": 10, "Y": 11 },
@@ -227,6 +228,7 @@
 			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			"HasSeenEvent: |contains=262214007": true
 		},
+		"Priority": "Late",
 		"MapTiles": [
 			{
 				"Position": { "X": 10, "Y": 11 },
@@ -264,6 +266,7 @@
 			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			"HasSeenEvent: |contains=262214007": true
 		},
+		"Priority": "Late",
 		"MapTiles": [
 			{
 				"Position": { "X": 20, "Y": 17 },
@@ -282,6 +285,7 @@
 			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			"HasSeenEvent: |contains=262214007": true
 		},
+		"Priority": "Late",
 		"MapTiles": [
 			{
 				"Position": { "X": 20, "Y": 17 },
