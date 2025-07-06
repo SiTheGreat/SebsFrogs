@@ -2,13 +2,13 @@
 
 	"Changes": [
 
-	// Adventurer Abigail
+	// Book Collecting
 	{
-		"LogName": "Si SF AA Crossover Events",
+		"LogName": "Si SF Books",
 		"Action": "Include",
-		"FromFile": "Assets/Crossovers/Si_SF_AA.json",
+		"FromFile": "Assets/Crossovers/SFSBooks.json",
 		"When": {
-			"HasMod: |contains=SiTheGreat.AdventurerAbigail": true,
+			"HasMod: |contains=Si.BC": true,
 		},
 	},
 
