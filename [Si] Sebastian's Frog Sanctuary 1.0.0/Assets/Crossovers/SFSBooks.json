@@ -181,121 +181,148 @@
 		},
 	},
 
-	// Map Entries //////////////////////////////////////////////////////////
-
-	// SFSGuideBook
-
-	{
-		"Action": "EditData",
-		"Target": "Data/TriggerActions",
-		"Entries": {
-			"Si.BC_SFSGuideBookTrigger": {
-				"Id": "Si.BC_SFSGuideBookTrigger",
-				"MarkActionApplied": true,
-				"Trigger": "Manual",
-				"Condition": "!PLAYER_HAS_MAIL Current Si.BC_HasSFSGuideBook",
-				"Actions": [
-					"AddItem Si.BC_SFSGuideBookNote",
-					"AddMail Current Si.BC_HasSFSGuideBook",
-				]
-			}
-		},
-	},
+	// Robin Shop //////////////////////////////////////////////////////////
+	// Also add that achievement number thing I keep forgetting about
 
 	{
-		"Action": "EditMap",
-		"Target": "Maps/SebastianRoom",
-		"When": {
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-			"HasSeenEvent: |contains=262214007": true
-		},
-		"Priority": "Late",
-		"MapTiles": [
-			{
-				"Position": { "X": 10, "Y": 11 },
-				"Layer": "Buildings",
-				"SetProperties": {
-					"Action": "spacechase0.SpaceCore_TriggerAction Si.BC_SFSGuideBookTrigger"
-				}
-			},
-		],
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "Carpenter", "Items" ],
+        "Entries":{
+            "Si_SF_SFSGuideBookShop": {
+				"Id": "Si_SF_SFSGuideBookShop",
+				"ItemId": "(O)Si.BC_SFSGuideBookNote",
+                "AvailableStock" : "1",
+				"Condition": "RANDOM 0.4 @addDailyLuck, PLAYER_HAS_SEEN_EVENT Current 262214001, !PLAYER_HAS_MAIL Current Si.BC_ReceivedSFSSoilBook",
+				"ActionsOnPurchase": [
+					"AddMail Current Si.BC_HasSFSGuideBook"
+				],
+		    },
+			"Si_SF_SFSSoilBookShop": {
+				"Id": "Si_SF_SFSSoilBookShop",
+				"ItemId": "(O)BC_SFSSoilBookNote",
+                "AvailableStock" : "1",
+				"Condition": "RANDOM 0.3 @addDailyLuck, PLAYER_HAS_SEEN_EVENT Current 262214007, !PLAYER_HAS_MAIL Current Si.BC_ReceivedSFSSoilBook",
+				"ActionsOnPurchase": [
+					"AddMail Current Si.BC_HasSFSSoilBook"
+				],
+		    },
+        },
 	},
 
-	{
-		"Action": "EditMap",
-		"Target": "Maps/SebastianRoom",
-		"When": {
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-			"HasSeenEvent: |contains=262214007": true
-		},
-		"Priority": "Late",
-		"MapTiles": [
-			{
-				"Position": { "X": 10, "Y": 11 },
-				"Layer": "Buildings",
-				"SetProperties": {
-					"Action": "spacechase0.SpaceCore_TriggerAction Si.BC_SFSGuideBookTrigger"
-				}
-			},
-		],
-	},
+	// // SFSGuideBook
 
-	// SFSSoilBook
+	// {
+	// 	"Action": "EditData",
+	// 	"Target": "Data/TriggerActions",
+	// 	"Entries": {
+	// 		"Si.BC_SFSGuideBookTrigger": {
+	// 			"Id": "Si.BC_SFSGuideBookTrigger",
+	// 			"MarkActionApplied": true,
+	// 			"Trigger": "Manual",
+	// 			"Condition": "!PLAYER_HAS_MAIL Current Si.BC_HasSFSGuideBook",
+	// 			"Actions": [
+	// 				"AddItem Si.BC_SFSGuideBookNote",
+	// 				"AddMail Current Si.BC_HasSFSGuideBook",
+	// 			]
+	// 		}
+	// 	},
+	// },
 
-	{
-		"Action": "EditData",
-		"Target": "Data/TriggerActions",
-		"Entries": {
-			"Si.BC_SFSSoilBookTrigger": {
-				"Id": "Si.BC_SFSSoilBookTrigger",
-				"MarkActionApplied": true,
-				"Trigger": "Manual",
-				"Condition": "!PLAYER_HAS_MAIL Current Si.BC_HasSFSSoilBook",
-				"Actions": [
-					"AddItem Si.BC_SFSSoilBookNote",
-					"AddMail Current Si.BC_HasSFSSoilBook",
-				]
-			}
-		},
-	},
+	// {
+	// 	"Action": "EditMap",
+	// 	"Target": "Maps/SebastianRoom",
+	// 	"When": {
+	// 		"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+	// 		"HasSeenEvent: |contains=262214007": true
+	// 	},
+	// 	"Priority": "Late",
+	// 	"MapTiles": [
+	// 		{
+	// 			"Position": { "X": 10, "Y": 11 },
+	// 			"Layer": "Buildings",
+	// 			"SetProperties": {
+	// 				"Action": "spacechase0.SpaceCore_TriggerAction Si.BC_SFSGuideBookTrigger"
+	// 			}
+	// 		},
+	// 	],
+	// },
 
-	{
-		"Action": "EditMap",
-		"Target": "Maps/ScienceHouse",
-		"When": {
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-			"HasSeenEvent: |contains=262214007": true
-		},
-		"Priority": "Late",
-		"MapTiles": [
-			{
-				"Position": { "X": 20, "Y": 17 },
-				"Layer": "Buildings",
-				"SetProperties": {
-					"Action": "spacechase0.SpaceCore_TriggerAction Si.BC_SFSSoilBookTrigger"
-				}
-			},
-		],
-	},
+	// {
+	// 	"Action": "EditMap",
+	// 	"Target": "Maps/SebastianRoom",
+	// 	"When": {
+	// 		"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+	// 		"HasSeenEvent: |contains=262214007": true
+	// 	},
+	// 	"Priority": "Late",
+	// 	"MapTiles": [
+	// 		{
+	// 			"Position": { "X": 10, "Y": 11 },
+	// 			"Layer": "Buildings",
+	// 			"SetProperties": {
+	// 				"Action": "spacechase0.SpaceCore_TriggerAction Si.BC_SFSGuideBookTrigger"
+	// 			}
+	// 		},
+	// 	],
+	// },
 
-	{
-		"Action": "EditMap",
-		"Target": "Maps/ScienceHouse",
-		"When": {
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-			"HasSeenEvent: |contains=262214007": true
-		},
-		"Priority": "Late",
-		"MapTiles": [
-			{
-				"Position": { "X": 20, "Y": 17 },
-				"Layer": "Buildings",
-				"SetProperties": {
-					"Action": "spacechase0.SpaceCore_TriggerAction Si.BC_SFSSoilBookTrigger"
-				}
-			},
-		],
-	},
+	// // SFSSoilBook
+
+	// {
+	// 	"Action": "EditData",
+	// 	"Target": "Data/TriggerActions",
+	// 	"Entries": {
+	// 		"Si.BC_SFSSoilBookTrigger": {
+	// 			"Id": "Si.BC_SFSSoilBookTrigger",
+	// 			"MarkActionApplied": true,
+	// 			"Trigger": "Manual",
+	// 			"Condition": "!PLAYER_HAS_MAIL Current Si.BC_HasSFSSoilBook",
+	// 			"Actions": [
+	// 				"AddItem Si.BC_SFSSoilBookNote",
+	// 				"AddMail Current Si.BC_HasSFSSoilBook",
+	// 			]
+	// 		}
+	// 	},
+	// },
+
+	// {
+	// 	"Action": "EditMap",
+	// 	"Target": "Maps/ScienceHouse",
+	// 	"When": {
+	// 		"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+	// 		"HasSeenEvent: |contains=262214007": true
+	// 	},
+	// 	"Priority": "Late",
+	// 	"MapTiles": [
+	// 		{
+	// 			"Position": { "X": 20, "Y": 17 },
+	// 			"Layer": "Buildings",
+	// 			"SetProperties": {
+	// 				"Action": "spacechase0.SpaceCore_TriggerAction Si.BC_SFSSoilBookTrigger"
+	// 			}
+	// 		},
+	// 	],
+	// },
+
+	// {
+	// 	"Action": "EditMap",
+	// 	"Target": "Maps/ScienceHouse",
+	// 	"When": {
+	// 		"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+	// 		"HasSeenEvent: |contains=262214007": true
+	// 	},
+	// 	"Priority": "Late",
+	// 	"MapTiles": [
+	// 		{
+	// 			"Position": { "X": 20, "Y": 17 },
+	// 			"Layer": "Buildings",
+	// 			"SetProperties": {
+	// 				"Action": "spacechase0.SpaceCore_TriggerAction Si.BC_SFSSoilBookTrigger"
+	// 			}
+	// 		},
+	// 	],
+	// },
 
 	// Secret Notes //////////////////////////////////////////////////////////
 
@@ -314,7 +341,6 @@
 				"NoteTexture": "Mods/Si.BC/blankbook",
 				"NoteTextureIndex": 0,
 				"NoteTextColor": "rgb(12, 12, 80)",
-				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
 				"ActionsOnFirstRead": [
 					"AddMail Current Si.BC_ReceivedSFSGuideBook",
 					"IncrementStat Si_bc_hasbooks 1"
@@ -331,7 +357,6 @@
 				"NoteTexture": "Mods/Si.BC/blankbook",
 				"NoteTextureIndex": 0,
 				"NoteTextColor": "rgb(12, 12, 80)",
-				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
 				"ActionsOnFirstRead": [
 					"AddMail Current Si.BC_ReceivedSFSSoilBook",
 					"IncrementStat Si_bc_hasbooks 1"
@@ -352,6 +377,12 @@
 				"Operation": "Append",
 				"Target": ["Fields", "Sebastian", 1],
 				"Value": "Si.BC_SFSGuideBook",
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Sebastian", 1],
+				"Value": "Si.BC_SFSSoilBook",
 				"Delimiter": " "
 			},
 		]
