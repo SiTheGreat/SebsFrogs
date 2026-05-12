@@ -40,7 +40,7 @@
 		// Shops //////////////////////////////////////////////////////////
 
 		{
-			"LogName": "Si SF Quests",
+			"LogName": "Si SF Shop",
 			"Action": "Include",
 			"FromFile": "Assets/Base/Si_SF_Shop.json",
     	},

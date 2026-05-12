@@ -1,0 +1,22 @@
+{
+	// Config
+	"config.SebSched.name": "SebSched",
+	"config.SebSched.description": "When disabled, Sebastian will not visit the frog habitats once a month.",
+	"config.SebRainSched.name": "SebRainSched",
+	"config.SebRainSched.description": "When disabled, Sebastian will not have a 50% chance of visiting the frog habitats on rainy days.",
+	"config.VincentSched.name": "VincentSched",
+	"config.VincentSched.description": "When disabled, Vincent will not visit the frog habitats once a month.",
+	"config.VincentRainSched.name": "VincentRainSched",
+	"config.VincentRainSched.description": "When disabled, Vincent will not have a 50% chance of visiting the frog habitats on rainy days.",
+	"config.EditEvents.name": "EditEvents",
+	"config.EditEvents.description": "When disabled, Sebastian's vanilla 14-heart event won't be modified to match this mod.",
+	"config.DialoguePatches.name": "DialoguePatches",
+	"config.DialoguePatches.description": "When disabled, dialogue (including marriage dialogue) added by this mod won't be applied. Does not include conversation topics.",
+	"config.Froggy.name": "Froggy",
+	"config.Froggy.description": "When disabled, Sebastian will not occasionally call you Froggy as a pet name when married.",
+	"config.CrossoverContent.name": "CrossoverContent",
+	"config.CrossoverContent.description": "When disabled, crossover content will not occur. Does not include compatibility patches.",
+	// Dialogue //////////////////////////////////////////////////////////
+	// Sebastian
+	"Si.SebFrogSanctuary.npc.dial": "",
+}
