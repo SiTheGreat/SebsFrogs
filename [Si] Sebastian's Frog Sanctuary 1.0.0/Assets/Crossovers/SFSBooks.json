@@ -72,9 +72,11 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"bc_book",
-					"nonfiction_book",
+					"animal_book",
+					"nature_book",
 					"guide_book",
+					"nonfiction_book",
+					"bc_book",
 				],
 			}
 		}
@@ -160,10 +162,10 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"bc_book",
-					"nonfiction_book",
 					"science_book",
 					"nature_book",
+					"nonfiction_book",
+					"bc_book",
 				],
 			}
 		}
@@ -182,7 +184,6 @@
 	},
 
 	// Robin Shop //////////////////////////////////////////////////////////
-	// Also add that achievement number thing I keep forgetting about
 
 	{
         "Action": "EditData",
@@ -229,7 +230,7 @@
 				"NoteTextColor": "rgb(12, 12, 80)",
 				"ActionsOnFirstRead": [
 					"AddMail Current Si.BC_ReceivedSFSGuideBook",
-					"IncrementStat Si_bc_hasbooks 1"
+					"IncrementStat bc_hasbooks 1"
 				]
 			},
 
@@ -245,10 +246,28 @@
 				"NoteTextColor": "rgb(12, 12, 80)",
 				"ActionsOnFirstRead": [
 					"AddMail Current Si.BC_ReceivedSFSSoilBook",
-					"IncrementStat Si_bc_hasbooks 1"
+					"IncrementStat bc_hasbooks 1"
 				]
 			},
 
+		},
+	},
+
+	// BC Achievement Counter //////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"SF_BC_AchievementCounter": {
+				"Id": "SF_BC_AchievementCounter",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_STAT Current bc_hasbooks 1",
+				"Actions": [
+					"IncrementStat bc_achievement 2", // add total number of books this mod adds to the achievement counter
+				]
+			},
 		},
 	},
 
