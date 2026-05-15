@@ -175,7 +175,26 @@
 	"Si.SebFrogSanctuary.MapString.18": "A few frogs are resting on lilypads.",
 	"Si.SebFrogSanctuary.MapString.19": "A frog is croaking in the shade.",
 	// Events //////////////////////////////////////////////////////////
-	// SVE Events //////////////////////////////////////////////////////////
+	// SVE Compat Events //////////////////////////////////////////////////////////
+	// Event 4
+	"Si.SebFrogSanctuary.SVE.E4.0": "You're here!$7",
+	"Si.SebFrogSanctuary.SVE.E4.1": "A lot more people showed up than I was expecting...$2",
+	"Si.SebFrogSanctuary.SVE.E4.2": "Well how could we not?#$b#You've been talking about it at the dinner table every day for ages.$1",
+	"Si.SebFrogSanctuary.SVE.E4.3": "Vincent's been very excited about the topic, so I thought this would be a good class learning opportunity.",
+	"Si.SebFrogSanctuary.SVE.E4.4": "And of course me and Abby showed up!$1#$b#We wouldn't miss this for the world.",
+	"Si.SebFrogSanctuary.SVE.E4.5": "Thank you all...#$b#It means a lot to me.$7",
+	"Si.SebFrogSanctuary.SVE.E4.6": "Alright, let me get these eggs in position.",
+	"Si.SebFrogSanctuary.SVE.E4.7": "Look!#$b#They've started hatching!$1",
+	"Si.SebFrogSanctuary.SVE.E4.8": "I wanna see!",
+	// Event 6
+	"Si.SebFrogSanctuary.SVE.E6.0": "Perfect timing @.",
+	"Si.SebFrogSanctuary.SVE.E6.1": "We're shooting a video for a frog conservation website I'm making.#$b#Shane's handling the camera, and Alex agreed to narrate it.#$b#Between you and me, he sounds a bit too much like a sports announcer, but I'll take it.$2#$b#I also got Haley to snap a few photos for the site.",
+	"Si.SebFrogSanctuary.SVE.E6.2": "Just don't make me touch any of them!",
+	"Si.SebFrogSanctuary.SVE.E6.3": "Anyway, want to join us?#$b#The video could use an interview with a local resident.",
+	"Si.SebFrogSanctuary.SVE.E6.4": "Hey look, a frog just hopped out of the water.",
+	"Si.SebFrogSanctuary.SVE.E6.5": "Great, let's get some footage.",
+	"Si.SebFrogSanctuary.SVE.E6.6": "Ah!$9#$b#It's on my face!$9",
+	"Si.SebFrogSanctuary.SVE.E6.7": "Get it off! Get it off!",
 	// Change Events //////////////////////////////////////////////////////////
 	// BC Books //////////////////////////////////////////////////////////
 	"Si.SebFrogSanctuary.SFSGuideBook.Title": "Gourmand Frog Conservation Guide",
