@@ -55,6 +55,37 @@
 		},
 	},
 
+	// Dynamic Tokens //////////////////////////////////////////////////////////
+
+	"DynamicTokens": [
+
+		// Where Seb sleeps - vanilla
+		{
+			"Name": "SebBed",
+			"Value": "SebastianRoom 11 9 1 sebastian_sleep",
+			"When": {
+				"HasMod |contains=kcspace.StarCrossed": false,
+			},
+		},
+		// Where Seb sleeps - Star Crossed by kcspace
+		{
+			"Name": "SebBed",
+			"Value": "SebastianRoom 11 9 1 sebastian_sleep",
+			"When": {
+				"HasMod |contains=kcspace.StarCrossed": true,
+				"HasSeenEvent:hostPlayer |contains=SebastianAbigailWedding": false,
+			},
+		},
+		{
+			"Name": "SebBed",
+			"Value": "SebastianRoom 10 9 1 sebastian_sleep",
+			"When": {
+				"HasMod |contains=kcspace.StarCrossed": true,
+				"HasSeenEvent:hostPlayer |contains=SebastianAbigailWedding": true,
+			},
+		},
+	],
+
 	"Changes": [
 
 		// Base Content //////////////////////////////////////////////////////////

@@ -9,7 +9,7 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/Sebastian",
 			"Entries": {
-				"23": "840 ScienceHouse 27 9 0/920 Mountain 60 37 1/1210 Mountain 68 21 1/1420 Mountain 81 36 2/1650 ScienceHouse 27 9 0/1810 SebastianRoom 9 4 3 sebastian_computer/2220 SebastianRoom 11 9 1 sebastian_sleep",
+				"23": "840 ScienceHouse 27 9 0/920 Mountain 60 37 1/1210 Mountain 68 21 1/1420 Mountain 81 36 2/1650 ScienceHouse 27 9 0/1810 SebastianRoom 9 4 3 sebastian_computer/2220 {{SebBed}}",
 				"marriage_spring_23": "720 Mountain 60 37 1/1210 Mountain 68 21 1/1420 Mountain 81 36 2/1640 SebastianRoom 9 4 3 sebastian_computer/2220 bed",
 				"marriage_summer_23": "GOTO marriage_spring_23",
 				"marriage_fall_23": "GOTO marriage_spring_23",
@@ -25,7 +25,7 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/Sebastian",
 			"Entries": {
-				"rain2": "840 ScienceHouse 27 9 0/920 Mountain 60 37 1/1210 Mountain 68 21 1/1420 Mountain 81 36 2/1650 ScienceHouse 27 9 0/1810 SebastianRoom 9 4 3 sebastian_computer/2220 SebastianRoom 11 9 1 sebastian_sleep",
+				"rain2": "840 ScienceHouse 27 9 0/920 Mountain 60 37 1/1210 Mountain 68 21 1/1420 Mountain 81 36 2/1650 ScienceHouse 27 9 0/1810 SebastianRoom 9 4 3 sebastian_computer/2220 {{SebBed}}",
 			},
 			"When": {
 				"SebRainSched": true
