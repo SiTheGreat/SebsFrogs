@@ -142,6 +142,18 @@
 	"Si.SebFrogSanctuary.M6.Body": "Hey @,^^The frog population around the lake is stabilizing thanks to your help. I want to make sure it stays steady without overwhelming the natural resources, so if you'd like to have some of them, visit my mom while she's working. She'll occasionally have some that she can sell to you. That way I can put the money to good use for preservation efforts. I know you'll give them a good home. Thanks again for all your help @.^^-Sebastian",
 	"Si.SebFrogSanctuary.M6.Header": "Frog Eggs At Robin's",
 	// Quests //////////////////////////////////////////////////////////
+	"Si.SebFrogSanctuary.Q1.title": "Frog Eggs",
+	"Si.SebFrogSanctuary.Q1.text": "Sebastian is looking for rare Gourmand Frog eggs.",
+	"Si.SebFrogSanctuary.Q1.objective": "Deliver a Frog Egg to Sebastian",
+	"Si.SebFrogSanctuary.Q1.reaction": "Hmm, let's see...#$b#Looks like this is also a Gourmand Frog egg!$1#$b#Nice work @!$7#$b#I'm going to put it in the quick tank I set up for the other one to make sure they stay safe while I look into a few things.",
+	"Si.SebFrogSanctuary.Q2.title": "Frog Habitat Materials",
+	"Si.SebFrogSanctuary.Q2.text": "Sebastian needs a lot of moss to set up habitats for the Gourmand Frogs.",
+	"Si.SebFrogSanctuary.Q2.objective": "Deliver 500 Moss to Sebastian",
+	"Si.SebFrogSanctuary.Q2.reaction": "Perfect!",
+	"Si.SebFrogSanctuary.Q3.title": "Frog Habitat Materials",
+	"Si.SebFrogSanctuary.Q3.text": "Sebastian needs a lot of fiber to set up habitats for the Gourmand Frogs.",
+	"Si.SebFrogSanctuary.Q3.objective": "Deliver 500 Fiber to Sebastian",
+	"Si.SebFrogSanctuary.Q3.reaction": "Perfect!",
 	// Map Strings //////////////////////////////////////////////////////////
 	// Events //////////////////////////////////////////////////////////
 	// SVE Events //////////////////////////////////////////////////////////

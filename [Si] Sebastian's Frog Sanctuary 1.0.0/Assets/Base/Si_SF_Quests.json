@@ -6,7 +6,7 @@
 		"Action": "EditData",
 		"Target": "Data/Quests",
 		"Entries": {
-			"Si_SF_Q1": "ItemDelivery/Frog Eggs/Sebastian is looking for rare Gourmand Frog eggs./Deliver a Frog Egg to Sebastian/Sebastian FrogEgg 1/-1/0/-1/false/Hmm, let's see...#$b#Looks like this is also a Gourmand Frog egg!$1#$b#Nice work @!$7#$b#I'm going to put it in the quick tank I set up for the other one to make sure they stay safe while I look into a few things.#$action AddMail Current Si_SF_M2",
+			"Si_SF_Q1": "ItemDelivery/{{i18n:Si.SebFrogSanctuary.Q1.title}}/{{i18n:Si.SebFrogSanctuary.Q1.text}}/{{i18n:Si.SebFrogSanctuary.Q1.objective}}/Sebastian FrogEgg 1/-1/0/-1/false/{{i18n:Si.SebFrogSanctuary.Q1.reaction}}#$action AddMail Current Si_SF_M2",
 		},
 	},
 
@@ -15,7 +15,7 @@
 		"Action": "EditData",
 		"Target": "Data/Quests",
 		"Entries": {
-			"Si_SF_Q2": "ItemDelivery/Frog Habitat Materials/Sebastian needs a lot of moss to set up habitats for the Gourmand Frogs./Deliver 500 Moss to Sebastian/Sebastian Moss 500/-1/0/-1/false/Perfect!#$action AddMail Current Si_SF_M3",
+			"Si_SF_Q2": "ItemDelivery/{{i18n:Si.SebFrogSanctuary.Q2.title}}/{{i18n:Si.SebFrogSanctuary.Q2.text}}/{{i18n:Si.SebFrogSanctuary.Q2.objective}}/Sebastian Moss 500/-1/0/-1/false/{{i18n:Si.SebFrogSanctuary.Q2.reaction}}#$action AddMail Current Si_SF_M3",
 		},
 	},
 
@@ -24,7 +24,7 @@
 		"Action": "EditData",
 		"Target": "Data/Quests",
 		"Entries": {
-			"Si_SF_Q3": "ItemDelivery/Frog Habitat Materials/Sebastian needs a lot of fiber to set up habitats for the Gourmand Frogs./Deliver 500 Fiber to Sebastian/Sebastian 771 500/-1/0/-1/false/Perfect!#$action AddMail Current Si_SF_M3",
+			"Si_SF_Q3": "ItemDelivery/{{i18n:Si.SebFrogSanctuary.Q3.title}}/{{i18n:Si.SebFrogSanctuary.Q3.text}}/{{i18n:Si.SebFrogSanctuary.Q3.objective}}/Sebastian 771 500/-1/0/-1/false/{{i18n:Si.SebFrogSanctuary.Q3.reaction}}#$action AddMail Current Si_SF_M3",
 		},
 	},
 
