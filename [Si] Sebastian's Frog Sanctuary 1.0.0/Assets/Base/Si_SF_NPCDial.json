@@ -11,9 +11,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
-				"SebFrogHatch": "Seb mentioned you found a lot of those frog eggs while out adventuring.#$b#Could you give me some tips on finding them?",
-				"SebFrogIsland": "I've never seen Seb so pumped to take an island vacation.$1#$b#He's very excited to expand the frog project.",
-				"SebFrogAdvAbi": "The dwarf, the wizard, the giant talking frog...#$e#Any other interesting people you're hiding?$1",
+				"SebFrogHatch": "{{i18n:Si.SebFrogSanctuary.Abigail.SebFrogHatch}}",
+				"SebFrogIsland": "{{i18n:Si.SebFrogSanctuary.Abigail.SebFrogIsland}}",
+				"SebFrogAdvAbi": "{{i18n:Si.SebFrogSanctuary.Abigail.SebFrogAdvAbi}}",
 			},
 		},
 
@@ -22,7 +22,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
-				"Thu6": "I never realized how much work taking care of some piles of moss and wood could be.#$b#Those habitats are no joke!#$e#At least Sam's mom makes good food for us afterwards.",
+				"Thu6": "{{i18n:Si.SebFrogSanctuary.Abigail.Thu6}}",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains=262214004": true,
@@ -37,9 +37,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
-				"SebFrogHatch": "I gotta admit, I didn't think asking Seb to babysit Vincent for me would lead to a whole project, but it's kinda cool.",
-				"SebFrogIsland": "Seb didn't seem too interested in visiting the island at first, but now he's practically itching to go back.#$b#I think I'll go with him next time.",
-				"SebFrogAdvAbi": "Hey @, been on any cool adventures lately?#$e#Mind if I tag along on the next one?$1",
+				"SebFrogHatch": "{{i18n:Si.SebFrogSanctuary.Sam.SebFrogHatch}}",
+				"SebFrogIsland": "{{i18n:Si.SebFrogSanctuary.Sam.SebFrogIsland}}",
+				"SebFrogAdvAbi": "{{i18n:Si.SebFrogSanctuary.Sam.SebFrogAdvAbi}}",
 			},
 		},
 
@@ -48,7 +48,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
-				"Tue6": "Me and Abby've been helping Seb with his frog project.#$b#It's a lot of hard work but my mom always makes us hot dinner when we get back, so that's pretty sweet.",
+				"Tue6": "{{i18n:Si.SebFrogSanctuary.Sam.Tue6}}",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains=262214004": true,
@@ -63,7 +63,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Demetrius",
 			"Entries": {
-				"SebFrogSick": "The frog Sebastian brought in is doing much better.",
+				"Si.SebFrogSanctuary.Demetruis.SebFrogSick": "The frog Sebastian brought in is doing much better.",
 			},
 		},
 
@@ -72,9 +72,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Demetrius",
 			"Entries": {
-				"Tue6": "Sebastian and I have been developing a fairly advanced profile of the Valley's soil acidity.#$b#He's becoming quite the researcher.$1",
-				"summer_Tue6": "I wonder if water retaining soil would encourage a higher variety of plant growth around the frog habitats.#$b#I should float the idea to Sebastian.",
-				"winter_Tue6": "Sebastian and I are planning to take ice samples of the lake to see what kind of conditions the hibernating frogs are experiencing this winter.#$b#Maru and Robin are building a specialized drill for the expedition.#$b#Isn't it exciting how teamwork furthers the advancement of scientific knowledge?$1",
+				"Tue6": "{{i18n:Si.SebFrogSanctuary.Demetruis.Tue6}}",
+				"summer_Tue6": "{{i18n:Si.SebFrogSanctuary.Demetruis.summer_Tue6}}",
+				"winter_Tue6": "{{i18n:Si.SebFrogSanctuary.Demetruis.winter_Tue6}}",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains=262214007": true,
@@ -89,7 +89,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Robin",
 			"Entries": {
-				"SebFrogHatch": "I've never seen Sebastian get so passionate about something.#$b#This frog project has really brought out a spark in him.",
+				"SebFrogHatch": "{{i18n:Si.SebFrogSanctuary.Robin.SebFrogHatch}}",
 			},
 		},
 
@@ -98,8 +98,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Robin",
 			"Entries": {
-				"Fri6": "Sebastian and Demetrius have been getting along much better since they started working together on helping the frogs.#$b#It makes me so happy.$1",
-				"Sat6": "The trees around the mountain have been looking much healthier lately.#$b#I wonder if Sebastian's conservation project has anything to do with it.",
+				"Fri6": "{{i18n:Si.SebFrogSanctuary.Robin.Fri6}}",
+				"Sat6": "{{i18n:Si.SebFrogSanctuary.Robin.Sat6}}",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains=262214007": true,
@@ -114,7 +114,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
-				"SebFrogHatch": "I'm thinking of building trackers to tag the frogs with, so Sebastian can monitor their behavior.#$b#What do you think?",
+				"SebFrogHatch": "{{i18n:Si.SebFrogSanctuary.Maru.SebFrogHatch}}",
 			},
 		},
 
@@ -123,8 +123,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
-				"summer_Tue8": "Sebastian and I have been growing a lot closer since he started working on his frog conservation project.#$b#He actually feels like my brother now.#$b#It's nice.",
-				"Fri8": "Seb and I have been tracking the frogs' behavioural patterns using tags I built.#$b#We're able to monitor things like food sources, nesting habits, and predator locations to see what areas need support.",
+				"summer_Tue8": "{{i18n:Si.SebFrogSanctuary.Maru.summer_Tue8}}",
+				"Fri8": "{{i18n:Si.SebFrogSanctuary.Maru.Fri8}}",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains=262214004": true,
@@ -139,7 +139,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
-				"SebFrogVideo": "Sebastian mentioned I sound like a sport annouuncer.#$b#I've never considered that before, but maybe that's something I could get into.",
+				"SebFrogVideo": "{{i18n:Si.SebFrogSanctuary.Alex.SebFrogVideo}}",
 			},
 		},
 
@@ -148,7 +148,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
-				"spring_Thu8": "Sebastian says frogs can jump twenty times their height!#$b#I wonder if I can train enough to jump that high?",
+				"spring_Thu8": "{{i18n:Si.SebFrogSanctuary.Alex.spring_Thu8}}",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains=262214006": true,
@@ -163,7 +163,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
-				"SebFrogVideo": "It took forever to get the frog slime off my face.$2#$b#But at least I got some good photos of it first.",
+				"SebFrogVideo": "{{i18n:Si.SebFrogSanctuary.Haley.SebFrogVideo}}",
 			},
 		},
 
@@ -172,7 +172,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
-				"spring_Fri8": "I'm thinking of starting a social media account for the frog project.#$b#But I also don't want them to jump on me again when I'm taking pictures...$2#$b#I'll think about it.",
+				"spring_Fri8": "{{i18n:Si.SebFrogSanctuary.Haley.spring_Fri8}}",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains=262214006": true,
@@ -187,7 +187,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
-				"SebFrogVideo": "I got some good footage the other day.",
+				"SebFrogVideo": "{{i18n:Si.SebFrogSanctuary.Shane.SebFrogVideo}}",
 			},
 		},
 
@@ -196,7 +196,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
-				"Mon8": "Getting good frog videos is pretty difficult.#$b#Their movements are unpredictable and they're always hopping between bright and shaded areas.#$b#Makes for a good challenge though.$1",
+				"Mon8": "{{i18n:Si.SebFrogSanctuary.Shane.Mon8}}",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains=262214006": true,
@@ -211,7 +211,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Linus",
 			"Entries": {
-				"SebFrogLake": "I've seen you folks working hard to set up frog habitats.#$b#I'm proud of what you're all doing for the valley.$1",
+				"SebFrogLake": "{{i18n:Si.SebFrogSanctuary.Linus.SebFrogLake}}",
 			},
 		},
 
@@ -220,8 +220,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Linus",
 			"Entries": {
-				"Sun8": "I enjoy falling asleep to the sound of frogs croaking in the evening.",
-				"Thu8": "The mountain has gotten so lively since your friend started helping the frogs who live here.",
+				"Sun8": "{{i18n:Si.SebFrogSanctuary.Linus.Sun8}}",
+				"Thu8": "{{i18n:Si.SebFrogSanctuary.Linus.Thu8}}",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains=262214004": true,
@@ -236,8 +236,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Kent",
 			"Entries": {
-				"spring_Thu8": "When I was a kid, we were always out late catching frogs.#$b#Now the kids out late helping them!#$b#Guess times have changed...$1",
-				"fall_Thu8": "When I was a kid, we were always out late catching frogs.#$b#Now the kids out late helping them!#$b#Guess times have changed...$1",
+				"spring_Thu8": "{{i18n:Si.SebFrogSanctuary.Kent.spring_Thu8}}",
+				"fall_Thu8": "{{i18n:Si.SebFrogSanctuary.Kent.fall_Thu8}}",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains=262214004": true,
@@ -252,8 +252,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jodi",
 			"Entries": {
-				"Fri": "Sam and his friends were out late checking on frog habitats last night.#$b#I wish he'd come home early, but I am glad he's doing something good for the environment and staying out of trouble, so I won't complain.",
-				"fall_Thu8": "Vincent keeps coming home with muddy clothes.#$b#I know he's been helping with the frog project, but I wish there were cleaner ways for him to do that.$2#$b#Sam's started doing his own laundry, maybe I can ask him to start doing Vincent's as well...",
+				"Fri": "{{i18n:Si.SebFrogSanctuary.Jodi.Fri}}",
+				"fall_Thu8": "{{i18n:Si.SebFrogSanctuary.Jodi.fall_Thu8}}",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains=262214004": true,
@@ -268,9 +268,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
-				"SebFrogLake": "I had so much fun at the lake!#$b#My mom wasn't very happy with my dirty clothes when I got home though.",
-				"SebFrogHatch": "Did you see all the little frogs?#$b#They looked so squishy!",
-				"SebFrogSchool": "Ms. Penny said I did really good on my frog report.#$b#Mom was very happy about it!",
+				"SebFrogLake": "{{i18n:Si.SebFrogSanctuary.Vincent.SebFrogLake}}",
+				"SebFrogHatch": "{{i18n:Si.SebFrogSanctuary.Vincent.SebFrogHatch}}",
+				"SebFrogSchool": "{{i18n:Si.SebFrogSanctuary.Vincent.SebFrogSchool}}",
 			},
 		},
 
@@ -279,10 +279,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
-				"AcceptGift_(TR)FrogEgg": "Oh wow, a frog egg!#$b#I'm gonna ask Sebastian to show me how to hatch it.",
-				"winter_Wed": "All the frogs are asleep, so I can't see them right now.$2",
-				"Wed": "I wanna watch the frogs, but Mom gets mad when I'm all dirty.$u#$b#It's a tough choice.",
-				"summer_Fri": "I'm gonna go look at the frogs!",
+				"AcceptGift_(TR)FrogEgg": "{{i18n:Si.SebFrogSanctuary.Vincent.AcceptGiftFrogEgg}}",
+				"winter_Wed": "{{i18n:Si.SebFrogSanctuary.Vincent.winter_Wed}}",
+				"Wed": "{{i18n:Si.SebFrogSanctuary.Vincent.Wed}}",
+				"summer_Fri": "{{i18n:Si.SebFrogSanctuary.Vincent.summer_Fri}}",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains=262214004": true,
@@ -297,8 +297,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
-				"SebFrogHatch": "That was such an eductional activity!#$b#I'm glad I brought the children.",
-				"SebFrogSchool": "Vincent's report on frog life cycles was very well researched.#$b#I'm so happy to see him apply his passion to learning.",
+				"SebFrogHatch": "{{i18n:Si.SebFrogSanctuary.Penny.SebFrogHatch}}",
+				"SebFrogSchool": "{{i18n:Si.SebFrogSanctuary.Penny.SebFrogSchool}}",
 			},
 		},
 
@@ -307,8 +307,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
-				"Wed6": "I'm trying to incorporate frogs into my lesson plans more to keep Vincent engaged.",
-				"summer_Sat6": "I'm planning another field trip to the lake for the kids to learn more about the ecosystem there.",
+				"Wed6": "{{i18n:Si.SebFrogSanctuary.Penny.Wed6}}",
+				"summer_Sat6": "{{i18n:Si.SebFrogSanctuary.Penny.summer_Sat6}}",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains=262214004": true,
@@ -323,8 +323,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jas",
 			"Entries": {
-				"SebFrogHatch": "Watching the frogs hatch was very cool!",
-				"SebFrogSchool": "I never realized that frogs are a lot like butterflies.#$b#Now I wanna learn more about them!$1",
+				"SebFrogHatch": "{{i18n:Si.SebFrogSanctuary.Jas.SebFrogHatch}}",
+				"SebFrogSchool": "{{i18n:Si.SebFrogSanctuary.Jas.SebFrogSchool}}",
 			},
 		},
 
@@ -333,7 +333,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jas",
 			"Entries": {
-				"summer_Fri6": "Vincent keeps asking me to go visit the frogs with him.#$e#Do you think I should go?",
+				"summer_Fri6": "{{i18n:Si.SebFrogSanctuary.Jas.summer_Fri6}}",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains=262214004": true,
