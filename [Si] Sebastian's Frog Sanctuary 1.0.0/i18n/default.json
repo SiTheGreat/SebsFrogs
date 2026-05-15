@@ -16,6 +16,8 @@
 	"config.Froggy.description": "When disabled, Sebastian will not occasionally call you Froggy as a pet name when married.",
 	"config.CrossoverContent.name": "CrossoverContent",
 	"config.CrossoverContent.description": "When disabled, crossover content will not occur. Does not include compatibility patches.",
+	"config.PlatonicBonusEvent.name": "PlatonicBonusEvent",
+	"config.PlatonicBonusEvent.description": "When enabled, you'll be able to view a platonic version of the bonus event added by this mod instead of the romantic version. This option was made to be used together with the Fourteen Heart Events For All mod, but can be used without it.",
 	// Dialogue //////////////////////////////////////////////////////////
 	// Sebastian
 	"Si.SebFrogSanctuary.npc.dial": "",
