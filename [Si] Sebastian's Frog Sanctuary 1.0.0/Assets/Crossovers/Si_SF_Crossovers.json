@@ -9,6 +9,7 @@
 		"FromFile": "Assets/Crossovers/SFSBooks.json",
 		"When": {
 			"HasMod: |contains=Si.BC": true,
+			"HasFlag:hostPlayer |contains=Si.BC_UnlockedBooks": true,
 		},
 	},
 
