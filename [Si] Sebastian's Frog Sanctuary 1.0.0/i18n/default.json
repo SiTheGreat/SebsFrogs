@@ -155,6 +155,25 @@
 	"Si.SebFrogSanctuary.Q3.objective": "Deliver 500 Fiber to Sebastian",
 	"Si.SebFrogSanctuary.Q3.reaction": "Perfect!",
 	// Map Strings //////////////////////////////////////////////////////////
+	"Si.SebFrogSanctuary.MapString.1": "There's a cluster of frog eggs here. It looks like they're almost ready to hatch.",
+	"Si.SebFrogSanctuary.MapString.2": "A couple of frogs are playing in the grass.",
+	"Si.SebFrogSanctuary.MapString.3": "The frogs are enjoying the warm sunshine.",
+	"Si.SebFrogSanctuary.MapString.4": "A frog is eyeing some bugs, waiting for its chance to catch one.",
+	"Si.SebFrogSanctuary.MapString.5": "A couple of frogs are hopping around.",
+	"Si.SebFrogSanctuary.MapString.6": "Some frogs are basking in the sun.",
+	"Si.SebFrogSanctuary.MapString.7": "A few frogs are rolling hazelnuts around.",
+	"Si.SebFrogSanctuary.MapString.8": "A frog pokes its head out of a leaf pile.",
+	"Si.SebFrogSanctuary.MapString.9": "A frog is blinks lazily at you.",
+	"Si.SebFrogSanctuary.MapString.10": "The frogs are hibernating.",
+	"Si.SebFrogSanctuary.MapString.11": "The frogs are asleep for the winter.",
+	"Si.SebFrogSanctuary.MapString.12": "It's too cold for the frogs to be awake right now.",
+	"Si.SebFrogSanctuary.MapString.13": "The frogs are enjoying the rain.",
+	"Si.SebFrogSanctuary.MapString.14": "There's a frog here that's croaking very loudly.",
+	"Si.SebFrogSanctuary.MapString.15": "A couple of frogs are splashing around in a puddle.",
+	"Si.SebFrogSanctuary.MapString.16": "The frogs are thriving.",
+	"Si.SebFrogSanctuary.MapString.17": "A couple of frogs are napping in the grass.",
+	"Si.SebFrogSanctuary.MapString.18": "A few frogs are resting on lilypads.",
+	"Si.SebFrogSanctuary.MapString.19": "A frog is croaking in the shade.",
 	// Events //////////////////////////////////////////////////////////
 	// SVE Events //////////////////////////////////////////////////////////
 	// Change Events //////////////////////////////////////////////////////////

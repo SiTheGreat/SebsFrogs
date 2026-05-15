@@ -8,9 +8,9 @@
         "Action": "EditData",
         "Target": "Strings/StringsFromMaps",
         "Entries": {
-            "{{ModId}}_LakeFrogs1": "There's a cluster of frog eggs here. It looks like they're almost ready to hatch.",
-			"{{ModId}}_LakeFrogs2": "A couple of frogs are playing in the grass.",
-			"{{ModId}}_LakeFrogs3": "The frogs are enjoying the warm sunshine.",
+            "{{ModId}}_LakeFrogs1": "{{i18n:Si.SebFrogSanctuary.MapString.1}}",
+			"{{ModId}}_LakeFrogs2": "{{i18n:Si.SebFrogSanctuary.MapString.2}}",
+			"{{ModId}}_LakeFrogs3": "{{i18n:Si.SebFrogSanctuary.MapString.3}}",
         },
 		"When": {
 			"Season": "Spring",
@@ -22,9 +22,9 @@
         "Action": "EditData",
         "Target": "Strings/StringsFromMaps",
         "Entries": {
-            "{{ModId}}_LakeFrogs1": "A frog is eyeing some bugs, waiting for its chance to catch one.",
-			"{{ModId}}_LakeFrogs2": "A couple of frogs are hopping around.",
-			"{{ModId}}_LakeFrogs3": "Some frogs are basking in the sun.",
+            "{{ModId}}_LakeFrogs1": "{{i18n:Si.SebFrogSanctuary.MapString.4}}",
+			"{{ModId}}_LakeFrogs2": "{{i18n:Si.SebFrogSanctuary.MapString.5}}",
+			"{{ModId}}_LakeFrogs3": "{{i18n:Si.SebFrogSanctuary.MapString.6}}",
         },
 		"When": {
 			"Season": "Summer",
@@ -36,9 +36,9 @@
         "Action": "EditData",
         "Target": "Strings/StringsFromMaps",
         "Entries": {
-            "{{ModId}}_LakeFrogs1": "A few frogs are rolling hazelnuts around.",
-			"{{ModId}}_LakeFrogs2": "A frog pokes its head out of a leaf pile.",
-			"{{ModId}}_LakeFrogs3": "A frog is blinks lazily at you.",
+            "{{ModId}}_LakeFrogs1": "{{i18n:Si.SebFrogSanctuary.MapString.7}}",
+			"{{ModId}}_LakeFrogs2": "{{i18n:Si.SebFrogSanctuary.MapString.8}}",
+			"{{ModId}}_LakeFrogs3": "{{i18n:Si.SebFrogSanctuary.MapString.9}}",
         },
 		"When": {
 			"Season": "Fall",
@@ -50,9 +50,9 @@
         "Action": "EditData",
         "Target": "Strings/StringsFromMaps",
         "Entries": {
-            "{{ModId}}_LakeFrogs1": "The frogs are hibernating.",
-			"{{ModId}}_LakeFrogs2": "The frogs are asleep for the winter.",
-			"{{ModId}}_LakeFrogs3": "It's too cold for the frogs to be awake right now.",
+            "{{ModId}}_LakeFrogs1": "{{i18n:Si.SebFrogSanctuary.MapString.10}}",
+			"{{ModId}}_LakeFrogs2": "{{i18n:Si.SebFrogSanctuary.MapString.11}}",
+			"{{ModId}}_LakeFrogs3": "{{i18n:Si.SebFrogSanctuary.MapString.12}}",
         },
 		"When": {
 			"Season": "Winter",
@@ -63,9 +63,9 @@
         "Action": "EditData",
         "Target": "Strings/StringsFromMaps",
         "Entries": {
-            "{{ModId}}_LakeFrogs1": "The frogs are enjoying the rain.",
-			"{{ModId}}_LakeFrogs2": "There's a frog here that's croaking very loudly.",
-			"{{ModId}}_LakeFrogs3": "A couple of frogs are splashing around in a puddle.",
+            "{{ModId}}_LakeFrogs1": "{{i18n:Si.SebFrogSanctuary.MapString.13}}",
+			"{{ModId}}_LakeFrogs2": "{{i18n:Si.SebFrogSanctuary.MapString.14}}",
+			"{{ModId}}_LakeFrogs3": "{{i18n:Si.SebFrogSanctuary.MapString.15}}",
         },
 		"When": {
 			"Season": "Spring, Summer, Fall",
@@ -79,8 +79,8 @@
         "Action": "EditData",
         "Target": "Strings/StringsFromMaps",
         "Entries": {
-			"{{ModId}}_IslandFrogs1": "The frogs are thriving.",
-			"{{ModId}}_IslandFrogs2": "A couple of frogs are napping in the grass.",
+			"{{ModId}}_IslandFrogs1": "{{i18n:Si.SebFrogSanctuary.MapString.16}}",
+			"{{ModId}}_IslandFrogs2": "{{i18n:Si.SebFrogSanctuary.MapString.17}}",
         },
 		"When": {
 			"Season": "Spring, Fall",
@@ -91,8 +91,8 @@
         "Action": "EditData",
         "Target": "Strings/StringsFromMaps",
         "Entries": {
-			"{{ModId}}_IslandFrogs1": "A few frogs are resting on lilypads.",
-			"{{ModId}}_IslandFrogs2": "A frog is croaking in the shade.",
+			"{{ModId}}_IslandFrogs1": "{{i18n:Si.SebFrogSanctuary.MapString.18}}",
+			"{{ModId}}_IslandFrogs2": "{{i18n:Si.SebFrogSanctuary.MapString.19}}",
         },
 		"When": {
 			"Season": "Summer, Winter",
