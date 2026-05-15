@@ -18,8 +18,8 @@
 		"Entries": {
 			"Si.BC_SFSGuideBookNote": {
 				"Name": "Si.BC_SFSGuideBookNote",
-				"DisplayName": "Gourmand Frog Conservation Guide",
-				"Description": "A handbook for frog conservation projects.",
+				"DisplayName": "{{i18n:Si.SebFrogSanctuary.SFSGuideBook.Title}}",
+				"Description": "{{i18n:Si.SebFrogSanctuary.SFSGuideBook.Descrip}}",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 303,
@@ -63,8 +63,8 @@
 		"Entries": {
 			"Si.BC_SFSGuideBook": {
 				"Name": "Si.BC_SFSGuideBook",
-				"DisplayName": "Gourmand Frog Conservation Guide",
-				"Description": "A handbook for frog conservation projects.",
+				"DisplayName": "{{i18n:Si.SebFrogSanctuary.SFSGuideBook.Title}}",
+				"Description": "{{i18n:Si.SebFrogSanctuary.SFSGuideBook.Descrip}}",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 303,
@@ -108,8 +108,8 @@
 		"Entries": {
 			"Si.BC_SFSSoilBookNote": {
 				"Name": "Si.BC_SFSSoilBookNote",
-				"DisplayName": "Optimal Soil Conditions for the Anura Gourmand Frog Subspecies",
-				"Description": "A research paper on gourmand frogs.",
+				"DisplayName": "{{i18n:Si.SebFrogSanctuary.SFSSoilBook.Title}}",
+				"Description": "{{i18n:Si.SebFrogSanctuary.SFSSoilBook.Descrip}}",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 303,
@@ -153,8 +153,8 @@
 		"Entries": {
 			"Si.BC_SFSSoilBook": {
 				"Name": "Si.BC_SFSSoilBook",
-				"DisplayName": "Optimal Soil Conditions for the Anura Gourmand Frog Subspecies",
-				"Description": "A research paper on gourmand frogs.",
+				"DisplayName": "{{i18n:Si.SebFrogSanctuary.SFSSoilBook.Title}}",
+				"Description": "{{i18n:Si.SebFrogSanctuary.SFSSoilBook.Descrip}}",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 303,
@@ -221,8 +221,8 @@
 			// SFSGuideBook
 
 			"Si.BC_SFSGuideBookSNF": {
-				"Title": "Gourmand Frog Conservation Guide",
-				"Contents": "^^Healthy adult frogs should have a mix of live insects in their diet, including crickets, earthworms, caterpillars, and dragonflies.",
+				"Title": "{{i18n:Si.SebFrogSanctuary.SFSGuideBook.Title}}",
+				"Contents": "{{i18n:Si.SebFrogSanctuary.SFSGuideBook.Content}}",
 				"ObjectId": "(O)Si.BC_SFSGuideBookNote",
 				"Location": "null",
 				"NoteTexture": "Mods/Si.BC/blankbook",
@@ -237,8 +237,8 @@
 			// SFSSoilBook
 
 			"Si.BC_SFSSoilBookSNF": {
-				"Title": "Optimal Soil Conditions for the Anura Gourmand Frog Subspecies",
-				"Contents": "^^A pH range that is neutral to slightly acidic will promote healthy growth and a welcoming reproductive atmosphere for anura gourmand frogs during the mating season.",
+				"Title": "{{i18n:Si.SebFrogSanctuary.SFSSoilBook.Title}}",
+				"Contents": "{{i18n:Si.SebFrogSanctuary.SFSSoilBook.Content}}",
 				"ObjectId": "(O)Si.BC_SFSSoilBookNote",
 				"Location": "null",
 				"NoteTexture": "Mods/Si.BC/blankbook",

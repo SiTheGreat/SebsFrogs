@@ -178,4 +178,10 @@
 	// SVE Events //////////////////////////////////////////////////////////
 	// Change Events //////////////////////////////////////////////////////////
 	// BC Books //////////////////////////////////////////////////////////
+	"Si.SebFrogSanctuary.SFSGuideBook.Title": "Gourmand Frog Conservation Guide",
+	"Si.SebFrogSanctuary.SFSGuideBook.Descrip": "A handbook for frog conservation projects.",
+	"Si.SebFrogSanctuary.SFSGuideBook.Content": "^^Healthy adult frogs should have a mix of live insects in their diet, including crickets, earthworms, caterpillars, and dragonflies.",
+	"Si.SebFrogSanctuary.SFSSoilBook.Title": "Optimal Soil Conditions for the Anura Gourmand Frog Subspecies",
+	"Si.SebFrogSanctuary.SFSSoilBook.Descrip": "A research paper on gourmand frogs.",
+	"Si.SebFrogSanctuary.SFSSoilBook.Content": "^^A pH range that is neutral to slightly acidic will promote healthy growth and a welcoming reproductive atmosphere for anura gourmand frogs during the mating season.",
 }
