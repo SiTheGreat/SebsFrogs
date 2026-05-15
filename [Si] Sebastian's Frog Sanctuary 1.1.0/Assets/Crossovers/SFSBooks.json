@@ -201,7 +201,7 @@
 		    },
 			"Si_SF_SFSSoilBookShop": {
 				"Id": "Si_SF_SFSSoilBookShop",
-				"ItemId": "(O)BC_SFSSoilBookNote",
+				"ItemId": "(O)Si.BC_SFSSoilBookNote",
                 "AvailableStock" : "1",
 				"Condition": "RANDOM 0.3 @addDailyLuck, PLAYER_HAS_SEEN_EVENT Current 262214007, !PLAYER_HAS_MAIL Current Si.BC_ReceivedSFSSoilBook",
 				"ActionsOnPurchase": [
