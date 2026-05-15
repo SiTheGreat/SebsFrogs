@@ -1,5 +1,5 @@
 {
-	// Config
+	// Config //////////////////////////////////////////////////////////
 	"config.SebSched.name": "SebSched",
 	"config.SebSched.description": "When disabled, Sebastian will not visit the frog habitats once a month.",
 	"config.SebRainSched.name": "SebRainSched",
@@ -42,90 +42,109 @@
 	"Si.SebFrogSanctuary.Seb.fall_Tue8": "Sam, Abigail, and I were out late last night checking on the frogs.#$e#Sam's mom made us spaghetti when we finally got back to town.",
 	"Si.SebFrogSanctuary.Seb.winter_Sat8": "The frogs are all hibernating now.#$b#I can't wait to see them again in spring.||I like winter but I do feel bad for all the cold animals out there.#$e#I guess they're used to it, though... like me.",
 	"Si.SebFrogSanctuary.Seb.winter_Sun8": "Demetrius has been talking about adding me as a contributor to one of his soil research papers.#$b#Does that make me a scientist?$5||I made some snowfrogs around town.#$b#I'm not very good at sculpting though.",
-"Si.SebFrogSanctuary.Seb.Resort_Wander": "Hey @, want to help me check on the island frog habitats?",
-"Si.SebFrogSanctuary.Seb.fall_Mon8": "The conservation website's been doing really well lately.",
-"Si.SebFrogSanctuary.Seb.Married.Rainy_Night_5": "The frogs must be loving the rain out there.",
-"Si.SebFrogSanctuary.Seb.Married.Neutral_9": "I think I'm going to go spend some time checking on the frogs.",
-"Si.SebFrogSanctuary.Seb.Married.spring_4": "I need to get a new frog population count now that spring's here.",
-"Si.SebFrogSanctuary.Seb.Married.summer_6": "Happy to see you, but I've gotta go wash all this sweat off.",
-"Si.SebFrogSanctuary.Seb.Married.fall_9": "Sorry I keep tracking mud into the house. The habitats have been pretty damp lately.",
-"Si.SebFrogSanctuary.Seb.Married.winter_14": "Since the frogs are hibernating... Wanna cuddle?",
-"Si.SebFrogSanctuary.Seb.Married.OneKid_4": "%kid1 looks kind of like a frog...#$e#...$5#$e#That's a compliment, I promise!$1",
-"Si.SebFrogSanctuary.Seb.Married.TwoKids_4": "The kids sure like hopping around like frogs, don't they?$1",
-"Si.SebFrogSanctuary.Seb.Married.Good_9": "I'm so glad to have you in my life.#$e#You make me so happy.",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.Rainy_Night_5": "The frogs must be loving the rain out there.",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.Neutral_9": "I think I'm going to go spend some time checking on the frogs.",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.spring_4": "I need to get a new frog population count now that spring's here.",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.summer_6": "Happy to see you Froggy, but I've gotta go wash all this sweat off.",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.fall_9": "Sorry I keep tracking mud into the house Froggy. The habitats have been pretty damp lately.",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.winter_14": "Since the frogs are hibernating... Wanna cuddle?",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.OneKid_4": "%kid1 looks kind of like a frog...#$e#...$5#$e#That's a compliment, I promise!$1",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.TwoKids_4": "The kids sure like hopping around like frogs, don't they?$1",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.Good_9": "I'm so glad to have you in my life, Froggy.#$e#You make me so happy.",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.Rainy_Day_2": "Hey. I couldn't sleep last night so I took a walk to the caves. I found this... want it?[575 769 767 84 66 78]#$e#I just have trouble sleeping sometimes, it has nothing to do with you. I love you Froggy.$7",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.Indoor_Day_1": "Hey Froggy... want some coffee?[395]$7#$e#I needed some... woke up early from a nightmare and I just couldn't fall back asleep.",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.Indoor_Night_4": "I often felt unappreciated back home... but here I feel like I really belong. Thanks for making me feel welcome, Froggy.$l",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.Outdoor_0": "I feel like I want to do something today... but I'm not sure what. Do you ever have that problem, Froggy?",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.TwoKids_3": "We've come a long way, Froggy. Look at our family. To be honest, I never really thought I'd end up in this situation.#$e#Now that I'm here, I like it...$l",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.Good_1": "Hey... come here Froggy. You look great today.$l",
-"Si.SebFrogSanctuary.Seb.Married.Froggy.winter_28": "It's been a great year, Froggy. We should celebrate a little. [346]$h#$e#I'm sure next year will be even better.$7",
-// Abigail
-"Si.SebFrogSanctuary.Abigail.SebFrogHatch": "Seb mentioned you found a lot of those frog eggs while out adventuring.#$b#Could you give me some tips on finding them?",
-"Si.SebFrogSanctuary.Abigail.SebFrogIsland": "I've never seen Seb so pumped to take an island vacation.$1#$b#He's very excited to expand the frog project.",
-"Si.SebFrogSanctuary.Abigail.SebFrogAdvAbi": "The dwarf, the wizard, the giant talking frog...#$e#Any other interesting people you're hiding?$1",
-"Si.SebFrogSanctuary.Abigail.Thu6": "I never realized how much work taking care of some piles of moss and wood could be.#$b#Those habitats are no joke!#$e#At least Sam's mom makes good food for us afterwards.",
-// Sam
-"Si.SebFrogSanctuary.Sam.SebFrogHatch": "I gotta admit, I didn't think asking Seb to babysit Vincent for me would lead to a whole project, but it's kinda cool.",
-"Si.SebFrogSanctuary.Sam.SebFrogIsland": "Seb didn't seem too interested in visiting the island at first, but now he's practically itching to go back.#$b#I think I'll go with him next time.",
-"Si.SebFrogSanctuary.Sam.SebFrogAdvAbi": "Hey @, been on any cool adventures lately?#$e#Mind if I tag along on the next one?$1",
-"Si.SebFrogSanctuary.Sam.Tue6": "Me and Abby've been helping Seb with his frog project.#$b#It's a lot of hard work but my mom always makes us hot dinner when we get back, so that's pretty sweet.",
-// Demetrius
-"Si.SebFrogSanctuary.Demetruis.SebFrogSick": "The frog Sebastian brought in is doing much better.",
-"Si.SebFrogSanctuary.Demetruis.Tue6": "Sebastian and I have been developing a fairly advanced profile of the Valley's soil acidity.#$b#He's becoming quite the researcher.$1",
-"Si.SebFrogSanctuary.Demetruis.summer_Tue6": "I wonder if water retaining soil would encourage a higher variety of plant growth around the frog habitats.#$b#I should float the idea to Sebastian.",
-"Si.SebFrogSanctuary.Demetruis.winter_Tue6": "Sebastian and I are planning to take ice samples of the lake to see what kind of conditions the hibernating frogs are experiencing this winter.#$b#Maru and Robin are building a specialized drill for the expedition.#$b#Isn't it exciting how teamwork furthers the advancement of scientific knowledge?$1",
-// Robin
-"Si.SebFrogSanctuary.Robin.SebFrogHatch": "I've never seen Sebastian get so passionate about something.#$b#This frog project has really brought out a spark in him.",
-"Si.SebFrogSanctuary.Robin.Fri6": "Sebastian and Demetrius have been getting along much better since they started working together on helping the frogs.#$b#It makes me so happy.$1",
-"Si.SebFrogSanctuary.Robin.Sat6": "The trees around the mountain have been looking much healthier lately.#$b#I wonder if Sebastian's conservation project has anything to do with it.",
-// Maru
-"Si.SebFrogSanctuary.Maru.SebFrogHatch": "I'm thinking of building trackers to tag the frogs with, so Sebastian can monitor their behavior.#$b#What do you think?",
-"Si.SebFrogSanctuary.Maru.summer_Tue8": "Sebastian and I have been growing a lot closer since he started working on his frog conservation project.#$b#He actually feels like my brother now.#$b#It's nice.",
-"Si.SebFrogSanctuary.Maru.Fri8": "Seb and I have been tracking the frogs' behavioural patterns using tags I built.#$b#We're able to monitor things like food sources, nesting habits, and predator locations to see what areas need support.",
-// Alex
-"Si.SebFrogSanctuary.Alex.SebFrogVideo": "Sebastian mentioned I sound like a sport announcer.#$b#I've never considered that before, but maybe that's something I could get into.",
-"Si.SebFrogSanctuary.Alex.spring_Thu8": "Sebastian says frogs can jump twenty times their height!#$b#I wonder if I can train enough to jump that high?",
-// Haley
-"Si.SebFrogSanctuary.Haley.SebFrogVideo": "It took forever to get the frog slime off my face.$2#$b#But at least I got some good photos of it first.",
-"Si.SebFrogSanctuary.Haley.spring_Fri8": "I'm thinking of starting a social media account for the frog project.#$b#But I also don't want them to jump on me again when I'm taking pictures...$2#$b#I'll think about it.",
-// Shane
-"Si.SebFrogSanctuary.Shane.SebFrogVideo": "I got some good footage the other day.",
-"Si.SebFrogSanctuary.Shane.Mon8": "Getting good frog videos is pretty difficult.#$b#Their movements are unpredictable and they're always hopping between bright and shaded areas.#$b#Makes for a good challenge though.$1",
-// Linus
-"Si.SebFrogSanctuary.Linus.SebFrogLake": "I've seen you folks working hard to set up frog habitats.#$b#I'm proud of what you're all doing for the valley.$1",
-"Si.SebFrogSanctuary.Linus.Sun8": "I enjoy falling asleep to the sound of frogs croaking in the evening.",
-"Si.SebFrogSanctuary.Linus.Thu8": "The mountain has gotten so lively since your friend started helping the frogs who live here.",
-// Kent
-"Si.SebFrogSanctuary.Kent.spring_Thu8": "When I was a kid, we were always out late catching frogs.#$b#Now the kids out late helping them!#$b#Guess times have changed...$1",
-"Si.SebFrogSanctuary.Kent.fall_Thu8": "When I was a kid, we were always out late catching frogs.#$b#Now the kids out late helping them!#$b#Guess times have changed...$1",
-// Jodi
-"Si.SebFrogSanctuary.Jodi.Fri": "Sam and his friends were out late checking on frog habitats last night.#$b#I wish he'd come home early, but I am glad he's doing something good for the environment and staying out of trouble, so I won't complain.",
-"Si.SebFrogSanctuary.Jodi.fall_Thu8": "Vincent keeps coming home with muddy clothes.#$b#I know he's been helping with the frog project, but I wish there were cleaner ways for him to do that.$2#$b#Sam's started doing his own laundry, maybe I can ask him to start doing Vincent's as well...",
-// Vincent
-"Si.SebFrogSanctuary.Vincent.SebFrogLake": "I had so much fun at the lake!#$b#My mom wasn't very happy with my dirty clothes when I got home though.",
-"Si.SebFrogSanctuary.Vincent.SebFrogHatch": "Did you see all the little frogs?#$b#They looked so squishy!",
-"Si.SebFrogSanctuary.Vincent.SebFrogSchool": "Ms. Penny said I did really good on my frog report.#$b#Mom was very happy about it!",
-"Si.SebFrogSanctuary.Vincent.AcceptGiftFrogEgg": "Oh wow, a frog egg!#$b#I'm gonna ask Sebastian to show me how to hatch it.",
-"Si.SebFrogSanctuary.Vincent.winter_Wed": "All the frogs are asleep, so I can't see them right now.$2",
-"Si.SebFrogSanctuary.Vincent.Wed": "I wanna watch the frogs, but Mom gets mad when I'm all dirty.$u#$b#It's a tough choice.",
-"Si.SebFrogSanctuary.Vincent.summer_Fri": "I'm gonna go look at the frogs!",
-// Penny
-"Si.SebFrogSanctuary.Penny.SebFrogHatch": "That was such an eductional activity!#$b#I'm glad I brought the children.",
-"Si.SebFrogSanctuary.Penny.SebFrogSchool": "Vincent's report on frog life cycles was very well researched.#$b#I'm so happy to see him apply his passion to learning.",
-"Si.SebFrogSanctuary.Penny.Wed6": "I'm trying to incorporate frogs into my lesson plans more to keep Vincent engaged.",
-"Si.SebFrogSanctuary.Penny.summer_Sat6": "I'm planning another field trip to the lake for the kids to learn more about the ecosystem there.",
-// Jas
-"Si.SebFrogSanctuary.Jas.SebFrogHatch": "Watching the frogs hatch was very cool!",
-"Si.SebFrogSanctuary.Jas.SebFrogSchool": "I never realized that frogs are just like butterflies.#$b#Now I wanna learn more about them!$1",
-"Si.SebFrogSanctuary.Jas.summer_Fri6": "Vincent keeps asking me to go visit the frogs with him.#$e#Do you think I should go?",
+	"Si.SebFrogSanctuary.Seb.Resort_Wander": "Hey @, want to help me check on the island frog habitats?",
+	"Si.SebFrogSanctuary.Seb.fall_Mon8": "The conservation website's been doing really well lately.",
+	"Si.SebFrogSanctuary.Seb.Married.Rainy_Night_5": "The frogs must be loving the rain out there.",
+	"Si.SebFrogSanctuary.Seb.Married.Neutral_9": "I think I'm going to go spend some time checking on the frogs.",
+	"Si.SebFrogSanctuary.Seb.Married.spring_4": "I need to get a new frog population count now that spring's here.",
+	"Si.SebFrogSanctuary.Seb.Married.summer_6": "Happy to see you, but I've gotta go wash all this sweat off.",
+	"Si.SebFrogSanctuary.Seb.Married.fall_9": "Sorry I keep tracking mud into the house. The habitats have been pretty damp lately.",
+	"Si.SebFrogSanctuary.Seb.Married.winter_14": "Since the frogs are hibernating... Wanna cuddle?",
+	"Si.SebFrogSanctuary.Seb.Married.OneKid_4": "%kid1 looks kind of like a frog...#$e#...$5#$e#That's a compliment, I promise!$1",
+	"Si.SebFrogSanctuary.Seb.Married.TwoKids_4": "The kids sure like hopping around like frogs, don't they?$1",
+	"Si.SebFrogSanctuary.Seb.Married.Good_9": "I'm so glad to have you in my life.#$e#You make me so happy.",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.Rainy_Night_5": "The frogs must be loving the rain out there.",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.Neutral_9": "I think I'm going to go spend some time checking on the frogs.",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.spring_4": "I need to get a new frog population count now that spring's here.",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.summer_6": "Happy to see you Froggy, but I've gotta go wash all this sweat off.",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.fall_9": "Sorry I keep tracking mud into the house Froggy. The habitats have been pretty damp lately.",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.winter_14": "Since the frogs are hibernating... Wanna cuddle?",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.OneKid_4": "%kid1 looks kind of like a frog...#$e#...$5#$e#That's a compliment, I promise!$1",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.TwoKids_4": "The kids sure like hopping around like frogs, don't they?$1",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.Good_9": "I'm so glad to have you in my life, Froggy.#$e#You make me so happy.",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.Rainy_Day_2": "Hey. I couldn't sleep last night so I took a walk to the caves. I found this... want it?[575 769 767 84 66 78]#$e#I just have trouble sleeping sometimes, it has nothing to do with you. I love you Froggy.$7",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.Indoor_Day_1": "Hey Froggy... want some coffee?[395]$7#$e#I needed some... woke up early from a nightmare and I just couldn't fall back asleep.",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.Indoor_Night_4": "I often felt unappreciated back home... but here I feel like I really belong. Thanks for making me feel welcome, Froggy.$l",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.Outdoor_0": "I feel like I want to do something today... but I'm not sure what. Do you ever have that problem, Froggy?",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.TwoKids_3": "We've come a long way, Froggy. Look at our family. To be honest, I never really thought I'd end up in this situation.#$e#Now that I'm here, I like it...$l",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.Good_1": "Hey... come here Froggy. You look great today.$l",
+	"Si.SebFrogSanctuary.Seb.Married.Froggy.winter_28": "It's been a great year, Froggy. We should celebrate a little. [346]$h#$e#I'm sure next year will be even better.$7",
+	// Abigail
+	"Si.SebFrogSanctuary.Abigail.SebFrogHatch": "Seb mentioned you found a lot of those frog eggs while out adventuring.#$b#Could you give me some tips on finding them?",
+	"Si.SebFrogSanctuary.Abigail.SebFrogIsland": "I've never seen Seb so pumped to take an island vacation.$1#$b#He's very excited to expand the frog project.",
+	"Si.SebFrogSanctuary.Abigail.SebFrogAdvAbi": "The dwarf, the wizard, the giant talking frog...#$e#Any other interesting people you're hiding?$1",
+	"Si.SebFrogSanctuary.Abigail.Thu6": "I never realized how much work taking care of some piles of moss and wood could be.#$b#Those habitats are no joke!#$e#At least Sam's mom makes good food for us afterwards.",
+	// Sam
+	"Si.SebFrogSanctuary.Sam.SebFrogHatch": "I gotta admit, I didn't think asking Seb to babysit Vincent for me would lead to a whole project, but it's kinda cool.",
+	"Si.SebFrogSanctuary.Sam.SebFrogIsland": "Seb didn't seem too interested in visiting the island at first, but now he's practically itching to go back.#$b#I think I'll go with him next time.",
+	"Si.SebFrogSanctuary.Sam.SebFrogAdvAbi": "Hey @, been on any cool adventures lately?#$e#Mind if I tag along on the next one?$1",
+	"Si.SebFrogSanctuary.Sam.Tue6": "Me and Abby've been helping Seb with his frog project.#$b#It's a lot of hard work but my mom always makes us hot dinner when we get back, so that's pretty sweet.",
+	// Demetrius
+	"Si.SebFrogSanctuary.Demetruis.SebFrogSick": "The frog Sebastian brought in is doing much better.",
+	"Si.SebFrogSanctuary.Demetruis.Tue6": "Sebastian and I have been developing a fairly advanced profile of the Valley's soil acidity.#$b#He's becoming quite the researcher.$1",
+	"Si.SebFrogSanctuary.Demetruis.summer_Tue6": "I wonder if water retaining soil would encourage a higher variety of plant growth around the frog habitats.#$b#I should float the idea to Sebastian.",
+	"Si.SebFrogSanctuary.Demetruis.winter_Tue6": "Sebastian and I are planning to take ice samples of the lake to see what kind of conditions the hibernating frogs are experiencing this winter.#$b#Maru and Robin are building a specialized drill for the expedition.#$b#Isn't it exciting how teamwork furthers the advancement of scientific knowledge?$1",
+	// Robin
+	"Si.SebFrogSanctuary.Robin.SebFrogHatch": "I've never seen Sebastian get so passionate about something.#$b#This frog project has really brought out a spark in him.",
+	"Si.SebFrogSanctuary.Robin.Fri6": "Sebastian and Demetrius have been getting along much better since they started working together on helping the frogs.#$b#It makes me so happy.$1",
+	"Si.SebFrogSanctuary.Robin.Sat6": "The trees around the mountain have been looking much healthier lately.#$b#I wonder if Sebastian's conservation project has anything to do with it.",
+	// Maru
+	"Si.SebFrogSanctuary.Maru.SebFrogHatch": "I'm thinking of building trackers to tag the frogs with, so Sebastian can monitor their behavior.#$b#What do you think?",
+	"Si.SebFrogSanctuary.Maru.summer_Tue8": "Sebastian and I have been growing a lot closer since he started working on his frog conservation project.#$b#He actually feels like my brother now.#$b#It's nice.",
+	"Si.SebFrogSanctuary.Maru.Fri8": "Seb and I have been tracking the frogs' behavioural patterns using tags I built.#$b#We're able to monitor things like food sources, nesting habits, and predator locations to see what areas need support.",
+	// Alex
+	"Si.SebFrogSanctuary.Alex.SebFrogVideo": "Sebastian mentioned I sound like a sport announcer.#$b#I've never considered that before, but maybe that's something I could get into.",
+	"Si.SebFrogSanctuary.Alex.spring_Thu8": "Sebastian says frogs can jump twenty times their height!#$b#I wonder if I can train enough to jump that high?",
+	// Haley
+	"Si.SebFrogSanctuary.Haley.SebFrogVideo": "It took forever to get the frog slime off my face.$2#$b#But at least I got some good photos of it first.",
+	"Si.SebFrogSanctuary.Haley.spring_Fri8": "I'm thinking of starting a social media account for the frog project.#$b#But I also don't want them to jump on me again when I'm taking pictures...$2#$b#I'll think about it.",
+	// Shane
+	"Si.SebFrogSanctuary.Shane.SebFrogVideo": "I got some good footage the other day.",
+	"Si.SebFrogSanctuary.Shane.Mon8": "Getting good frog videos is pretty difficult.#$b#Their movements are unpredictable and they're always hopping between bright and shaded areas.#$b#Makes for a good challenge though.$1",
+	// Linus
+	"Si.SebFrogSanctuary.Linus.SebFrogLake": "I've seen you folks working hard to set up frog habitats.#$b#I'm proud of what you're all doing for the valley.$1",
+	"Si.SebFrogSanctuary.Linus.Sun8": "I enjoy falling asleep to the sound of frogs croaking in the evening.",
+	"Si.SebFrogSanctuary.Linus.Thu8": "The mountain has gotten so lively since your friend started helping the frogs who live here.",
+	// Kent
+	"Si.SebFrogSanctuary.Kent.spring_Thu8": "When I was a kid, we were always out late catching frogs.#$b#Now the kids out late helping them!#$b#Guess times have changed...$1",
+	"Si.SebFrogSanctuary.Kent.fall_Thu8": "When I was a kid, we were always out late catching frogs.#$b#Now the kids out late helping them!#$b#Guess times have changed...$1",
+	// Jodi
+	"Si.SebFrogSanctuary.Jodi.Fri": "Sam and his friends were out late checking on frog habitats last night.#$b#I wish he'd come home early, but I am glad he's doing something good for the environment and staying out of trouble, so I won't complain.",
+	"Si.SebFrogSanctuary.Jodi.fall_Thu8": "Vincent keeps coming home with muddy clothes.#$b#I know he's been helping with the frog project, but I wish there were cleaner ways for him to do that.$2#$b#Sam's started doing his own laundry, maybe I can ask him to start doing Vincent's as well...",
+	// Vincent
+	"Si.SebFrogSanctuary.Vincent.SebFrogLake": "I had so much fun at the lake!#$b#My mom wasn't very happy with my dirty clothes when I got home though.",
+	"Si.SebFrogSanctuary.Vincent.SebFrogHatch": "Did you see all the little frogs?#$b#They looked so squishy!",
+	"Si.SebFrogSanctuary.Vincent.SebFrogSchool": "Ms. Penny said I did really good on my frog report.#$b#Mom was very happy about it!",
+	"Si.SebFrogSanctuary.Vincent.AcceptGiftFrogEgg": "Oh wow, a frog egg!#$b#I'm gonna ask Sebastian to show me how to hatch it.",
+	"Si.SebFrogSanctuary.Vincent.winter_Wed": "All the frogs are asleep, so I can't see them right now.$2",
+	"Si.SebFrogSanctuary.Vincent.Wed": "I wanna watch the frogs, but Mom gets mad when I'm all dirty.$u#$b#It's a tough choice.",
+	"Si.SebFrogSanctuary.Vincent.summer_Fri": "I'm gonna go look at the frogs!",
+	// Penny
+	"Si.SebFrogSanctuary.Penny.SebFrogHatch": "That was such an eductional activity!#$b#I'm glad I brought the children.",
+	"Si.SebFrogSanctuary.Penny.SebFrogSchool": "Vincent's report on frog life cycles was very well researched.#$b#I'm so happy to see him apply his passion to learning.",
+	"Si.SebFrogSanctuary.Penny.Wed6": "I'm trying to incorporate frogs into my lesson plans more to keep Vincent engaged.",
+	"Si.SebFrogSanctuary.Penny.summer_Sat6": "I'm planning another field trip to the lake for the kids to learn more about the ecosystem there.",
+	// Jas
+	"Si.SebFrogSanctuary.Jas.SebFrogHatch": "Watching the frogs hatch was very cool!",
+	"Si.SebFrogSanctuary.Jas.SebFrogSchool": "I never realized that frogs are just like butterflies.#$b#Now I wanna learn more about them!$1",
+	"Si.SebFrogSanctuary.Jas.summer_Fri6": "Vincent keeps asking me to go visit the frogs with him.#$e#Do you think I should go?",
+	// Mail //////////////////////////////////////////////////////////
+	"Si.SebFrogSanctuary.M1.Body": "Hey @,^^About that frog egg you gave me yesterday - can you bring me another if you find one? Thanks.^^-Sebastian",
+	"Si.SebFrogSanctuary.M1.Header": "Sebastian Wants Another Frog Egg",
+	"Si.SebFrogSanctuary.M2.Body": "Hey @,^^I reached out to the Ferngill Animal Conservation Center, and they sent me a kit to start a Gourmand Frog conservation project here in the valley. Stop by my room at around 2pm if you'd like to help.^^-Sebastian",
+	"Si.SebFrogSanctuary.M2.Header": "Sebastian's Conservation Project",
+	"Si.SebFrogSanctuary.M3.Body": "Hey @,^^We've got all the materials we need. Let's meet up by the lake at around 3pm.^^-Sebastian",
+	"Si.SebFrogSanctuary.M3.Header": "Setting Up Habitats",
+	"Si.SebFrogSanctuary.M4.Body": "Hey @,^^The eggs look like they're almost ready to hatch. I'm going to take them to their new homes by the lake soon, in case you want to watch.^^-Sebastian",
+	"Si.SebFrogSanctuary.M4.Header": "Hatching Frogs",
+	"Si.SebFrogSanctuary.M5.Body": "Hey thanks again for coming @. I didn't realize so many people would be interested in frogs, it was kind of cool to see everyone gathered at the lake waiting for them to hatch. They seem to be doing well. Feel free to stop by the habitats any time to check on them, just be careful not to disturb them.^^-Sebastian",
+	"Si.SebFrogSanctuary.M5.Header": "Frog Update",
+	"Si.SebFrogSanctuary.M6.Body": "Hey @,^^The frog population around the lake is stabilizing thanks to your help. I want to make sure it stays steady without overwhelming the natural resources, so if you'd like to have some of them, visit my mom while she's working. She'll occasionally have some that she can sell to you. That way I can put the money to good use for preservation efforts. I know you'll give them a good home. Thanks again for all your help @.^^-Sebastian",
+	"Si.SebFrogSanctuary.M6.Header": "Frog Eggs At Robin's",
+	// Quests //////////////////////////////////////////////////////////
+	// Map Strings //////////////////////////////////////////////////////////
+	// Events //////////////////////////////////////////////////////////
+	// SVE Events //////////////////////////////////////////////////////////
+	// Change Events //////////////////////////////////////////////////////////
+	// BC Books //////////////////////////////////////////////////////////
 }
